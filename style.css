@@ -11,4 +11,10 @@ p {
 
 a {
   font-family: "poppins";
+  font-size: small;
+  font-weight: bold;
+}
+
+.header {
+  align-items: baseline;
 }
