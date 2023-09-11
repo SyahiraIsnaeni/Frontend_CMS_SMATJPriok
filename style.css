@@ -155,9 +155,7 @@ footer .bottom-details{
 
 footer .bottom-details .bottom_text{
   color: white;
-  max-width: 1250px;
   margin-left: auto;
-  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
 }
