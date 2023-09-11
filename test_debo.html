@@ -21,33 +21,49 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #136a71; justify-content: center">
-      <div class="container" style="background-color: #136a71" style="align-items: center">
-        <a class="navbar-brand" style="font-size: 15px; text-align: center; float: center" href="index.html"> <img src="assets/logo.png" alt="logo" height="50" style="float: left" />SMA Tanjung Priok<br />Jakarta Utara </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav" style="align-items: right">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Profil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://sd.bintangjuara.sch.id/772-2/">Guru & Staf</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="http://ppdb.bintangjuara.sch.id/">Galeri</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kontak.html">E-Learning</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Kontak</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #136a71; justify-content: center">
+        <div class="container" style="background-color: #136a71" style="align-items: center">
+          <a class="navbar-brand" style="font-size: 15px; text-align: center; float: center" href="index.html">
+            <img src="assets/logo.png" alt="logo" height="50" style="float: left" />
+            SMA Tanjung Priok<br />Jakarta Utara
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://sd.bintangjuara.sch.id/772-2/">Guru & Staf</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://ppdb.bintangjuara.sch.id/">Galeri</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="kontak.html">E-Learning</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Kontak</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <a class="cta" href="#"><button>Login</button></a>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
+
+    <script>
+      $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+          $("nav").toggleClass("active");
+        });
+      });
+    </script>
 
     <!-- AKHIR NAVBAR -->
   </body>
