@@ -80,7 +80,7 @@ footer::before {
   width: 100%;
   left: 0;
   top: 100px;
-  background: white;
+  background: black;
 }
 
 footer .content {
