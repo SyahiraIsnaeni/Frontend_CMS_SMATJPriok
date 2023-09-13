@@ -60,7 +60,7 @@ button {
   border: #0000ff;
   border-radius: 50px;
   cursor: pointer;
-  transition: all 0.3s ease 0;
+  transition: all 0.3s ease;
 }
 button:hover {
   background-color: rgb(30, 180, 80);
