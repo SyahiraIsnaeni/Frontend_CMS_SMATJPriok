@@ -65,21 +65,21 @@ button {
 button:hover {
   background-color: rgb(30, 180, 80);
 }
+
 footer {
-  position: fixed;
   background: #136a71;
   width: 100%;
   bottom: 0;
   left: 0;
 }
 
-footer::before {
+footer .line {
   content: "";
   position: absolute;
-  height: 1px;
+  height: 2px;
   width: 100%;
   left: 0;
-  top: 100px;
+  margin-top: 90px;
   background: black;
 }
 
