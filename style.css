@@ -21,6 +21,26 @@ p {
   padding: 0;
   background-color: #136a71;
 } */
+
+.gambar {
+  width: 20px;
+  height: 10px;
+  transform: translateX((0px));
+  animation: float 6s ease-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 li,
 a,
 button {
@@ -51,19 +71,18 @@ header {
   transition: all 0.3s ease 0s;
 }
 .navbar-nav li a:hover {
-  color: rgb(30, 180, 80);
+  color: #def32c;
 }
 
 button {
   padding: 9px 25px;
-  background-color: rgb(242, 244, 245);
   border: #0000ff;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 button:hover {
-  background-color: rgb(30, 180, 80);
+  background-color: #def32c;
 }
 footer {
   position: fixed;

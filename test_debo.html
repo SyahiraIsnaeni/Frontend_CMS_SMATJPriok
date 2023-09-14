@@ -25,15 +25,14 @@
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #136a71; justify-content: center">
         <div class="container" style="background-color: #136a71" style="align-items: center">
           <a class="navbar-brand" style="font-size: 15px; text-align: center; float: center" href="index.html">
-            <img src="assets/logo.png" alt="logo" height="50" style="float: left" />
-            SMA Tanjung Priok<br />Jakarta Utara
+            <img src="assets/logo.png" alt="logo" height="50" style="float: left" /><strong> SMA TANJUNG PRIOK<br />JAKARTA UTARA</strong>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <nav>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav" style="font-weight: bolder; letter-spacing: 0px">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
                 </li>
@@ -55,19 +54,42 @@
               </ul>
             </div>
           </nav>
-          <a class="cta" href="#"><button>Login</button></a>
+          <a class="cta" href="#" style="color: #136a71"><button style="border-radius: 6px; color: #136a71">Login</button></a>
         </div>
       </nav>
     </header>
 
-    <script>
-      $(document).ready(function () {
-        $(".menu-toggle").click(function () {
-          $("nav").toggleClass("active");
-        });
-      });
-    </script>
-
     <!-- AKHIR NAVBAR -->
+
+    <!-- FLOATING -->
+    <section id="floating">
+      <div class="container d-flex justify-content-start">
+        <div class="row">
+          <div class="col-10">
+            <div class="gambar"><img style="height: 200px" src="assets/daun.png" /></div>
+          </div>
+          <div class="col-2">
+            <div class="gambar"><img style="width: 550; height: 400px; position: relative; bottom: 10px;" src="assets/daun_kebalik.png" /></div>
+          </div>
+        </div>
+
+        <div style="position: absolute; top: 400px; align-items: center" class="row mb-2">
+          <div class="col">
+            <img style="width: 220px; height: 220px; margin: auto" src="assets/smp.png" alt="gambarpengumuman" />
+            <div align="justify"><p>Lorem ips20 dolor sit amet consectetur adipisicing elit. Harum quas sed magni accusamus ullam enim, accusamus eligendi quas fuga expedita.</p></div>
+          </div>
+</div>
+          <div class="row">
+            <div class="col-6">
+              <div style="position: relative; top: 400px; right: 300px" class="gambar"><img style="width: 550; height: 400px" src="assets/daun_kebalik.png" /></div>
+            </div>
+            <div class="col-6">
+              <div style="position: relative; top: 450px; left: 800px" class="gambar"><img style="height: 200px" src="assets/daun_kebalik.png" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR FLOATING -->
   </body>
 </html>
