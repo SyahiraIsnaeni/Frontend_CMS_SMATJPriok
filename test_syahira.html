@@ -20,10 +20,6 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-    <!-- Swiper JS -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <!-- JavaScript -->
-    <script src="js/script.js"></script>
 
     <!-- Pengenalan -->
     <section id="pengenalan">
@@ -33,7 +29,7 @@
             <img src="assets/smp.png" alt="logo" height="330" width="520" />
           </div>
           <div class="col-7" style="font-family: Poppins; padding-left: 40px">
-            <h3><b>SMA Tanjung Priok Jakarta</b></h3>
+            <h2><b>SMA Tanjung Priok Jakarta</b></h2>
             <p align="justify">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
               type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
@@ -45,103 +41,336 @@
     </section>
 
     <!-- Ekstrakurikuler -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bce7eb" fill-opacity="1" d="M0,320L120,298.7C240,277,480,235,720,234.7C960,235,1200,277,1320,298.7L1440,320L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    <svg style="margin-bottom: -5px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bce7eb" fill-opacity="1" d="M0,320L120,298.7C240,277,480,235,720,234.7C960,235,1200,277,1320,298.7L1440,320L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
     <section id="ekstrakurikuler" style="background: #BCE7EB">
       <div class="container">
-        <h2 style="text-align: center;margin-bottom: 30px"><b>Ekstrakurikuler</b></h2>
+        <h2 style="text-align: center;margin-bottom: 30px;font-size: 37px"><b>Ekstrakurikuler</b></h2>
         <div class="row">
-          <div class="col-7" style="font-family: Poppins;">
+          <div class="col-1 d-flex justify-content-start" style="margin-top: 95px;margin-left: 50px">
+            <button id="arrow-left-ekskul" onclick="prevEkskul()" style="border-radius: 50px;
+              background-color: #bce7eb; padding-left: 10px;padding-bottom: 10px;
+                    padding-top: 12px;padding-right: 16px; width: 76px;height: 73px;margin-top: 90px;
+                    margin-left: 10px;"
+                    onmouseover="this.style.boxShadow='1px 2px 2px 2px rgba(0, 0, 0, 0.3)';
+                      this.style.backgroundColor='#ffffff'"
+                    onmouseout="this.style.backgroundColor= '#bce7eb';this.style.boxShadow='0px 0px 0px 0px rgba(0, 0, 0, 0)'">
+              <img src="assets/panah-kiri.png" width="50" height="50">
+            </button>
           </div>
-          <div class="col">
+          <div class="main-card col-4 d-flex justify-content-start" id="main-card-ekskul"
+               style="overflow-x: hidden;margin-top: 40px">
+            <div class="card-ekskul me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/blog1.jpeg" class="rounded" width="420" height="370">
+                <p style="color: black;font-size: 26px;font-weight: bold;margin-bottom: -10px;
+                         text-align: center">
+                  Bulu Tangkis
+                </p>
+                <p style="color: black;font-size: 20px;text-align: center">
+                  Bulu Tangkis SMA Tanjung Priok
+                </p>
+                <div>
+                  <button href="#" style="width: 210px; height: 50px;background-color: white;font-size: 20px;border: 2px solid #000;
+                    border-radius: 8px; display: block;margin: auto;margin-top: 10px">
+                    Selengkapnya
+                  </button>
+                </div>
+              </a>
+            </div>
+            <div class="card-ekskul me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/blog2.jpg" class="rounded" width="420" height="370">
+                <p style="color: black;font-size: 26px;font-weight: bold;margin-bottom: -10px;
+                         text-align: center">
+                  Basket
+                </p>
+                <p style="color: black;font-size: 20px;text-align: center">
+                  Basket SMA Tanjung Priok
+                </p>
+                <div>
+                  <button href="#" style="width: 210px; height: 50px;background-color: white;font-size: 20px;border: 2px solid #000;
+                    border-radius: 8px; display: block;margin: auto;margin-top: 10px">
+                    Selengkapnya
+                  </button>
+                </div>
+              </a>
+            </div>
+            <div class="card-ekskul me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/blog3.jpg" class="rounded" width="420" height="370">
+                <p style="color: black;font-size: 26px;font-weight: bold;margin-bottom: -10px;
+                         text-align: center">
+                  Paskibra
+                </p>
+                <p style="color: black;font-size: 20px;text-align: center">
+                  Paskibra SMA Tanjung Priok
+                </p>
+                <div>
+                  <button href="#" style="width: 210px; height: 50px;background-color: white;font-size: 20px;border: 2px solid #000;
+                    border-radius: 8px; display: block;margin: auto;margin-top: 10px">
+                    Selengkapnya
+                  </button>
+                </div>
+              </a>
+            </div>
+            <div class="card-ekskul me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/blog4.jpg" class="rounded" width="420" height="370">
+                <p style="color: black;font-size: 26px;font-weight: bold;margin-bottom: -10px;
+                         text-align: center">
+                  Pramuka
+                </p>
+                <p style="color: black;font-size: 20px;text-align: center">
+                  Pramuka SMA Tanjung Priok
+                </p>
+                <div>
+                  <button href="#" style="width: 210px; height: 50px;background-color: white;font-size: 20px;border: 2px solid #000;
+                    border-radius: 8px; display: block;margin: auto;margin-top: 10px">
+                    Selengkapnya
+                  </button>
+                </div>
+              </a>
+            </div>
+            <div class="card-ekskul me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/smp.png" class="rounded" width="420" height="370">
+                <p style="color: black;font-size: 26px;font-weight: bold;margin-bottom: -10px;
+                         text-align: center">
+                  Drumband
+                </p>
+                <p style="color: black;font-size: 20px;text-align: center">
+                  Drumband SMA Tanjung Priok
+                </p>
+                <div>
+                  <button href="#" style="width: 210px; height: 50px;background-color: white;font-size: 20px;border: 2px solid #000;
+                    border-radius: 8px; display: block;margin: auto;margin-top: 10px">
+                    Selengkapnya
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-1 d-flex justify-content-start" style="margin-top: 95px">
+            <div>
+              <button id="arrow-right-ekskul" onclick="nextEkskul()" style="border-radius: 50px;
+              background-color: #bce7eb; padding-left: 15px;padding-bottom: 10px;
+                    padding-top: 12px;padding-right: 16px; width: 76px;height: 73px;margin-top: 90px;
+                    margin-left: 2px;"
+                      onmouseover="this.style.boxShadow='1px 2px 2px 2px rgba(0, 0, 0, 0.3)';
+                      this.style.backgroundColor='#ffffff'"
+                      onmouseout="this.style.backgroundColor= '#bce7eb';this.style.boxShadow='0px 0px 0px 0px rgba(0, 0, 0, 0)'">
+                <img src="assets/panah-kanan.png" width="50" height="50">
+              </button>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-start" style="margin-left: 60px;margin-top: 10px">
             <img src="assets/ekstrakurikuler.png" alt="logo" height="500" width="450" />
           </div>
         </div>
       </div>
+      <script>
+        var sliderMainEkskul = document.getElementById("main-card-ekskul");
+        var itemEkskul = sliderMainEkskul.getElementsByClassName("card-ekskul");
+
+        function nextEkskul(){
+          sliderMainEkskul.append(itemEkskul[0]);
+        }
+
+        function prevEkskul(){
+          sliderMainEkskul.prepend(itemEkskul[itemEkskul.length - 1]);
+        }
+      </script>
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bce7eb" fill-opacity="1" d="M0,192L120,186.7C240,181,480,171,720,144C960,117,1200,75,1320,53.3L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
 
-    <!-- Blog Pendidik -->
-    <section id="blog" class="mt-5 overflow-hidden">
+    <!-- Prestasi -->
+    <section id="prestasi" style="background: white;margin-bottom: 130px">
       <div class="container">
-        <h2 style="text-align: center;margin-bottom: 30px"><b>Blog Pendidik</b></h2>
-      </div>
-      <div class="container">
+        <h2 style="text-align: center;margin-bottom: 30px;font-size: 37px"><b>Prestasi</b></h2>
         <div class="row">
-          <div class="col-12 d-flex justify-content-start">
-            <div class="card-blog me-3">
+          <div class="col-4 d-flex justify-content-start" style="margin-left: -150px;margin-top: 10px">
+            <img src="assets/prestasi.png" alt="logo" height="500" width="900" />
+          </div>
+          <div class="col-1 d-flex justify-content-start" style="margin-top: 115px;margin-left: 250px">
+            <button id="arrow-left-prestasi" onclick="prevPrestasi()" style="border-radius: 50px;
+              background-color: white; padding-left: 10px;padding-bottom: 10px;
+                    padding-top: 12px;padding-right: 16px; width: 76px;height: 73px;margin-top: 90px;
+                    margin-left: 10px;"
+                    onmouseover="this.style.boxShadow='1px 2px 2px 2px rgba(0, 0, 0, 0.3)';
+                      this.style.backgroundColor='#136A71'"
+                    onmouseout="this.style.backgroundColor= '#ffffff';this.style.boxShadow='0px 0px 0px 0px rgba(0, 0, 0, 0)'">
+              <img src="assets/panah-kiri.png" width="50" height="50">
+            </button>
+          </div>
+          <div class="main-card col-5 d-flex justify-content-start" id="main-card-prestasi"
+               style="overflow-x: hidden;margin-top: 60px">
+            <div class="card-prestasi me-3">
               <a href="#" class="text-decoration-none">
-                <img src="assets/smp.png" class="rounded" width="420" height="270">
-                <div class="card-title rounded text-center"
-                  style="padding-left: 10px;padding-bottom: 10px;
-                  padding-top: 10px;padding-right: 10px; width: 300px;
-                  background-color: white;border-radius: 3px;
-                  margin-left: 63px;border: 1px solid #000;margin-top: -50px;position: relative">
-                    <h5 style="color: black">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting
-                    </h5>
-                </div>
+                <img src="assets/blog1.jpeg" style="border-radius: 15px" width="525" height="370">
               </a>
             </div>
-            <div class="card-blog me-3">
+            <div class="card-prestasi me-3">
               <a href="#" class="text-decoration-none">
-                <img src="assets/smp.png" class="rounded" width="420" height="270">
-                <div class="card-title rounded text-center"
-                     style="padding-left: 10px;padding-bottom: 10px;
-                  padding-top: 10px;padding-right: 10px; width: 300px;
-                  background-color: white;border-radius: 3px;
-                  margin-left: 63px;border: 1px solid #000;margin-top: -50px;position: relative">
-                  <h5 style="color: black">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                  </h5>
-                </div>
+                <img src="assets/blog2.jpg" class="rounded" width="525" height="370">
               </a>
             </div>
-            <div class="card-blog me-3">
+            <div class="card-prestasi me-3">
               <a href="#" class="text-decoration-none">
-                <img src="assets/smp.png" class="rounded" width="420" height="270">
-                <div class="card-title rounded text-center"
-                     style="padding-left: 10px;padding-bottom: 10px;
-                  padding-top: 10px;padding-right: 10px; width: 300px;
-                  background-color: white;border-radius: 3px;
-                  margin-left: 63px;border: 1px solid #000;margin-top: -50px;position: relative">
-                  <h5 style="color: black">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                  </h5>
-                </div>
+                <img src="assets/blog3.jpg" class="rounded" width="525" height="370">
               </a>
             </div>
-            <div class="card-blog me-3">
+            <div class="card-prestasi me-3">
               <a href="#" class="text-decoration-none">
-                <img src="assets/smp.png" class="rounded" width="420" height="270">
-                <div class="card-title rounded text-center"
-                     style="padding-left: 10px;padding-bottom: 10px;
-                  padding-top: 10px;padding-right: 10px; width: 300px;
-                  background-color: white;border-radius: 3px;
-                  margin-left: 63px;border: 1px solid #000;margin-top: -50px;position: relative">
-                  <h5 style="color: black">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                  </h5>
-                </div>
+                <img src="assets/blog4.jpg" class="rounded" width="525" height="370">
               </a>
             </div>
-            <div class="card-blog me-3">
+            <div class="card-prestasi me-3">
               <a href="#" class="text-decoration-none">
-                <img src="assets/smp.png" class="rounded" width="420" height="270">
-                <div class="card-title rounded text-center"
-                     style="padding-left: 10px;padding-bottom: 10px;
-                  padding-top: 10px;padding-right: 10px; width: 300px;
-                  background-color: white;border-radius: 3px;
-                  margin-left: 63px;border: 1px solid #000;margin-top: -50px;
-                  position: relative">
-                  <h5 style="color: black">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                  </h5>
-                </div>
+                <img src="assets/smp.png" class="rounded" width="525" height="370">
               </a>
+            </div>
+          </div>
+          <div class="col-1 d-flex justify-content-start" style="margin-top: 115px">
+            <div>
+              <button id="arrow-right-prestasi" onclick="nextPrestasi()" style="border-radius: 50px;
+              background-color: white; padding-left: 15px;padding-bottom: 10px;
+                    padding-top: 12px;padding-right: 16px; width: 76px;height: 73px;margin-top: 90px;
+                    margin-left: 2px;"
+                      onmouseover="this.style.boxShadow='1px 2px 2px 2px rgba(0, 0, 0, 0.3)';
+                      this.style.backgroundColor='#136A71'"
+                      onmouseout="this.style.backgroundColor= '#ffffff';this.style.boxShadow='0px 0px 0px 0px rgba(0, 0, 0, 0)'">
+                <img src="assets/panah-kanan.png" width="50" height="50">
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <script>
+        var sliderMainPrestasi = document.getElementById("main-card-prestasi");
+        var itemPrestasi = sliderMainPrestasi.getElementsByClassName("card-prestasi");
+
+        function nextPrestasi(){
+          sliderMainPrestasi.append(itemPrestasi[0]);
+        }
+
+        function prevPrestasi(){
+          sliderMainPrestasi.prepend(itemPrestasi[itemPrestasi.length - 1]);
+        }
+      </script>
+    </section>
+
+    <!-- Blog Pendidik -->
+    <section id="blog" class="overflow-hidden">
+      <h2 style="text-align: center;margin-bottom: 30px;font-size: 37px"><b>Blog Pendidik</b></h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-1 d-flex justify-content-start">
+            <button id="arrow-left" onclick="prev()" style="border-radius: 50px;
+              background-color: white; padding-left: 10px;padding-bottom: 10px;
+                    padding-top: 12px;padding-right: 16px; width: 76px;height: 73px;margin-top: 90px;
+                    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3); " onmouseover="this.style.backgroundColor='#136A71';"
+                    onmouseout="this.style.backgroundColor= '#ffffff';">
+              <img src="assets/panah-kiri.png" width="50" height="50">
+            </button>
+          </div>
+          <div class="main-card col-10 d-flex justify-content-start" id="main-card" style="overflow-x: hidden;">
+            <div class="card-blog me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/blog1.jpeg" class="rounded" width="350" height="240">
+                <div class="card-title rounded text-center"
+                  style="padding-left: 5px;padding-bottom: 2px;
+                  padding-top: 5px;padding-right: 5px; width: 280px; height: 97px;
+                  background-color: white;border-radius: 3px;
+                  margin-left: 35px;border: 1px solid #000;margin-top: -50px;position: relative">
+                    <p style="color: black;font-size: 15px;font-weight: bold;">
+                      Ketahui Kinerja Kepala Sekolah Dalam Rangka Mewujudkan Kemajuan Pendidikan (1)
+                    </p>
+                </div>
+              </a>
+            </div>
+            <div class="card-blog me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/blog2.jpg" class="rounded" width="350" height="240">
+                <div class="card-title rounded text-center"
+                     style="padding-left: 5px;padding-bottom: 2px;
+                  padding-top: 5px;padding-right: 5px; width: 280px; height: 97px;
+                  background-color: white;border-radius: 3px;
+                  margin-left: 35px;border: 1px solid #000;margin-top: -50px;position: relative">
+                  <p style="color: black;font-size: 15px;font-weight: bold;">
+                    Ketahui Kinerja Kepala Sekolah Dalam Rangka Mewujudkan Kemajuan Pendidikan (2)
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card-blog me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/blog3.jpg" class="rounded" width="350" height="240">
+                <div class="card-title rounded text-center"
+                     style="padding-left: 5px;padding-bottom: 2px;
+                  padding-top: 5px;padding-right: 5px; width: 280px; height: 97px;
+                  background-color: white;border-radius: 3px;
+                  margin-left: 35px;border: 1px solid #000;margin-top: -50px;position: relative">
+                  <p style="color: black;font-size: 15px;font-weight: bold;">
+                    Ketahui Kinerja Kepala Sekolah Dalam Rangka Mewujudkan Kemajuan Pendidikan (3)
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card-blog me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/blog4.jpg" class="rounded" width="350" height="240">
+                <div class="card-title rounded text-center"
+                     style="padding-left: 5px;padding-bottom: 2px;
+                  padding-top: 5px;padding-right: 5px; width: 280px; height: 97px;
+                  background-color: white;border-radius: 3px;
+                  margin-left: 35px;border: 1px solid #000;margin-top: -50px;position: relative">
+                  <p style="color: black;font-size: 15px;font-weight: bold;">
+                    Ketahui Kinerja Kepala Sekolah Dalam Rangka Mewujudkan Kemajuan Pendidikan (4)
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card-blog me-3">
+              <a href="#" class="text-decoration-none">
+                <img src="assets/smp.png" class="rounded" width="350" height="240">
+                <div class="card-title rounded text-center"
+                     style="padding-left: 5px;padding-bottom: 2px;
+                  padding-top: 5px;padding-right: 5px; width: 280px; height: 97px;
+                  background-color: white;border-radius: 3px;
+                  margin-left: 35px;border: 1px solid #000;margin-top: -50px;position: relative">
+                  <p style="color: black;font-size: 15px;font-weight: bold;">
+                    Ketahui Kinerja Kepala Sekolah Dalam Rangka Mewujudkan Kemajuan Pendidikan (5)
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-1 d-flex justify-content-start">
+            <div>
+              <button id="arrow-right" onclick="next()" style="border-radius: 50px;
+              background-color: white; padding-left: 15px;padding-bottom: 10px;
+                    padding-top: 12px;padding-right: 16px; width: 76px;height: 73px;margin-top: 90px;
+                    margin-left: 10px;box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);"
+                      onmouseover="this.style.backgroundColor='#136A71';"
+                      onmouseout="this.style.backgroundColor= '#ffffff';">
+                <img src="assets/panah-kanan.png" width="50" height="50">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        var sliderMain = document.getElementById("main-card");
+        var item = sliderMain.getElementsByClassName("card-blog");
+
+        function next(){
+            sliderMain.append(item[0]);
+        }
+
+        function prev(){
+          sliderMain.prepend(item[item.length - 1]);
+        }
+      </script>
       <div id="selengkapnya" >
         <button href="#" style="width: 250px; height: 60px;background-color: white;font-size: 23px;border: 2px solid #000;
           border-radius: 8px; display: block;margin: auto;margin-top: 50px;margin-bottom: 50px">
