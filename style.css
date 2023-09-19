@@ -22,9 +22,9 @@ p {
   background-color: #136a71;
 } */
 
-.gambar {
-  width: 20px;
-  height: 10px;
+.gambarF {
+  /* width: 20px;
+  height: 10px; */
   transform: translateX((0px));
   animation: float 6s ease-out infinite;
 }
@@ -73,7 +73,6 @@ header {
 .navbar-nav li a:hover {
   color: #def32c;
 }
-
 button {
   padding: 9px 25px;
   border: #0000ff;
@@ -90,6 +89,10 @@ footer {
   width: 100%;
   bottom: 0;
   left: 0;
+}
+
+.gambar1 {
+  justify-self: end;
 }
 
 footer .line {
