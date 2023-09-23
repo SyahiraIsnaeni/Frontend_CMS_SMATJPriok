@@ -273,7 +273,93 @@ footer .bottom-details .bottom_text {
   justify-content: space-between;
 }
 
-/*Berita dan Pengumuman */
+@media screen and (max-width: 394px){
+  #pengenalan img{
+    height: 230px;
+    width: 350px;
+    position: center;
+    text-align: center;
+  }
+
+  #pengenalan p{
+    margin-top: 5px;
+    font-size: 13px;
+    margin-left: -25px;
+  }
+
+  #pengenalan h2{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: -25px;
+  }
+}
+
+@media screen and (min-width: 395px) and (max-width: 420px){
+  #pengenalan img{
+    height: 240px;
+    width: 380px;
+    position: center;
+    text-align: center;
+  }
+
+  #pengenalan p{
+    margin-top: 5px;
+    font-size: 14px;
+    margin-left: -25px;
+  }
+
+  #pengenalan h2{
+    margin-top: 18px;
+    font-size: 21px;
+    margin-left: -25px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 700px){
+  #pengenalan img{
+    height: 330px;
+    width: 510px;
+    position: center;
+    text-align: center;
+  }
+
+  #pengenalan p{
+    margin-top: 5px;
+    font-size: 14px;
+    margin-left: -25px;
+  }
+
+  #pengenalan h2{
+    margin-top: 18px;
+    font-size: 21px;
+    margin-left: -25px;
+  }
+}
+
+
+@media screen and (max-width: 990px) and (min-width: 701px){
+  #pengenalan img{
+    height:400px;
+    width: 700px;
+    margin-left: -15px;
+    position: center;
+    text-align: center;
+  }
+
+  #pengenalan p{
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: -40px;
+  }
+
+  #pengenalan h2{
+    margin-top: 25px;
+    font-size: 25px;
+    margin-left: -40px;
+  }
+}
+
+
 
 
 
