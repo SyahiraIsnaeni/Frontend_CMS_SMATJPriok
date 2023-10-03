@@ -354,7 +354,40 @@ footer .bottom-details .bottom_text {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 394px) {
+.carousel-image{
+  height: 100vh;
+}
+
+@media screen and (max-width: 299px) {
+  #pengenalan img {
+    height: 190px;
+    width: 310px;
+    position: center;
+    text-align: center;
+  }
+
+  #pengenalan p {
+    margin-top: 5px;
+    font-size: 13px;
+    margin-left: -25px;
+  }
+
+  #pengenalan h2 {
+    margin-top: -230px;
+    font-size: 17px;
+    margin-left: -25px;
+  }
+
+  #pengenalan p {
+    margin-top: 230px;
+  }
+
+  .carousel-image{
+    height: 30vh;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 394px) {
   #pengenalan img {
     height: 230px;
     width: 350px;
@@ -369,9 +402,29 @@ footer .bottom-details .bottom_text {
   }
 
   #pengenalan h2 {
-    margin-top: 15px;
+    margin-top: -270px;
     font-size: 20px;
     margin-left: -25px;
+  }
+
+  #pengenalan p {
+    margin-top: 260px;
+  }
+
+  .carousel-image{
+    height: 40vh;
+  }
+
+  #floating p{
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  #floating .gambarF1{
+
   }
 }
 
@@ -390,9 +443,17 @@ footer .bottom-details .bottom_text {
   }
 
   #pengenalan h2 {
-    margin-top: 18px;
+    margin-top: -280px;
     font-size: 21px;
     margin-left: -25px;
+  }
+
+  #pengenalan p {
+    margin-top: 270px;
+  }
+
+  .carousel-image{
+    height: 35vh;
   }
 }
 
@@ -411,9 +472,17 @@ footer .bottom-details .bottom_text {
   }
 
   #pengenalan h2 {
-    margin-top: 18px;
+    margin-top: -370px;
     font-size: 21px;
     margin-left: -25px;
+  }
+
+  #pengenalan p {
+    margin-top: 365px;
+  }
+
+  .carousel-image{
+    height: 50vh;
   }
 }
 
@@ -427,14 +496,18 @@ footer .bottom-details .bottom_text {
   }
 
   #pengenalan p {
-    margin-top: 5px;
+    margin-top: 450px;
     font-size: 20px;
     margin-left: -40px;
   }
 
   #pengenalan h2 {
-    margin-top: 25px;
-    font-size: 25px;
+    margin-top: -453px;
+    font-size: 30px;
     margin-left: -40px;
+  }
+
+  .carousel-image{
+    height: 50vh;
   }
 }
