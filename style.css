@@ -358,6 +358,46 @@ footer .bottom-details .bottom_text {
   height: 100vh;
 }
 
+#floating p{
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 500px;
+  text-align: center;
+}
+
+#floating .gambarPostingan{
+  width: 250px;
+  height: 250px;
+  margin-bottom: 15px
+}
+
+#floating .gambarF1{
+  height: 120px;
+  margin-top: 50px;
+  margin-left: 140px;
+}
+
+#floating .gambarF2{
+  position: relative;
+  max-width: 550%;
+  justify-self: end;
+  margin-top: -170px;
+}
+
+#floating .gambarF3{
+  position: absolute;
+  height: 300px;
+  margin-left: -80px;
+  margin-top: 100px;
+}
+
+#floating .gambarF4{
+  height: 170px;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 160px;
+}
+
 @media screen and (max-width: 299px) {
   #pengenalan img {
     height: 190px;
@@ -412,19 +452,26 @@ footer .bottom-details .bottom_text {
   }
 
   .carousel-image{
-    height: 40vh;
+    height: 35vh;
   }
 
   #floating p{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     max-width: 300px;
     text-align: center;
     margin-left: 40px;
   }
 
-  #floating .gambarF1{
+  #floating .gambarPostingan{
+    margin-top: 80px;
+    width: 160px;
+    height: 160px;
+  }
 
+  #floating .gambarF1{
+      width: 20px;
+      height: 20px;
   }
 }
 
@@ -508,6 +555,6 @@ footer .bottom-details .bottom_text {
   }
 
   .carousel-image{
-    height: 50vh;
+    height: 55vh;
   }
 }
