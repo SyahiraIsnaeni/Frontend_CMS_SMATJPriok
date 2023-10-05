@@ -388,6 +388,35 @@ footer .bottom-details .bottom_text {
     margin-top: 10px;
 }
 
+#fasilitas{
+    margin-top: 100px;
+    background-color: #BCE7EB;
+    height: 450px
+}
+
+#fasilitas h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 37px;
+    margin-top: 50px
+}
+
+#fasilitas #arrow-left{
+    border-radius: 50px;
+    background-color: white; padding-left: 14px;padding-bottom: 10px;
+    padding-top: 10px;padding-right: 16px; width: 50px;height: 50px;margin-top: 95px;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    margin-left: 25px;
+}
+
+#fasilitas #arrow-right{
+    border-radius: 50px;
+    background-color: white; padding-left: 15px;padding-bottom: 10px;color: black;
+    padding-top: 12px;padding-right: 16px; width: 50px;height: 50px;margin-top: 95px;
+    margin-left: 8px;box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+
 @media screen and (max-width: 299px) {
 
     .carousel-image {
@@ -446,9 +475,43 @@ footer .bottom-details .bottom_text {
 
     #visimisi img{
         margin-top: 10px;
-        width: 300px;
-        height: 320px;
+        width: 290px;
+        height: 300px;
         margin-bottom: 20px;
+    }
+
+    #fasilitas{
+        height: 330px;
+    }
+
+    #fasilitas h2{
+        font-size: 28px;
+        margin-top: 50px
+    }
+
+    #fasilitas .fasilitas{
+        width: 210px;
+        height: 150px;
+    }
+
+    #fasilitas #arrow-left{
+        border-radius: 50px;
+        padding-left: 9px;padding-bottom: 10px;
+        padding-top: 4px;padding-right: 16px;
+        width: 30px;
+        margin-left: -8px;
+        height: 30px;margin-top: 58px;
+    }
+
+    #fasilitas #arrow-right{
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        margin-top: -90px;
+        margin-left: 237px;
+        position: absolute;
+        padding-left: 5px;padding-bottom: 10px;
+        padding-top: 3px;padding-right: 6px;
     }
 
 }
@@ -505,6 +568,26 @@ footer .bottom-details .bottom_text {
         width: 310px;
         height: 320px;
         margin-bottom: 20px;
+    }
+
+    #fasilitas #arrow-left{
+        border-radius: 50px;
+        padding-left: 9px;padding-bottom: 10px;
+        padding-top: 4px;padding-right: 16px;
+        width: 30px;
+        margin-left: -9px;
+        height: 30px;margin-top: 88px;
+    }
+
+    #fasilitas #arrow-right{
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        margin-top: 92px;
+        margin-left: -15px;
+        position: absolute;
+        padding-left: 5px;padding-bottom: 10px;
+        padding-top: 3px;padding-right: 6px;
     }
 
 }
@@ -571,6 +654,42 @@ footer .bottom-details .bottom_text {
         margin-bottom: 20px;
     }
 
+    #fasilitas #arrow-left{
+        border-radius: 50px;
+        padding-left: 10px;padding-bottom: 10px;
+        padding-top: 5px;padding-right: 16px;
+        width: 35px;
+        margin-left: -9px;
+        height: 35px;margin-top: 110px;
+    }
+
+    #fasilitas #arrow-right{
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
+        margin-top: 112px;
+        margin-left: -15px;
+        position: absolute;
+        padding-left: 5px;padding-bottom: 10px;
+        padding-top: 5px;padding-right: 6px;
+    }
+
+    #fasilitas{
+        height: 420px;
+    }
+
+    #fasilitas h2{
+        font-size: 29px;
+        margin-top: 50px
+    }
+
+    #fasilitas .fasilitas{
+        width: 330px;
+        height: 230px;
+        margin-left: -5px;
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (min-width: 501px) and (max-width: 700px){
@@ -635,6 +754,42 @@ footer .bottom-details .bottom_text {
         width: 470px;
         height: 480px;
         margin-bottom: 20px;
+    }
+
+    #fasilitas #arrow-left{
+        border-radius: 50px;
+        padding-left: 10px;padding-bottom: 10px;
+        padding-top: 5px;padding-right: 16px;
+        width: 35px;
+        margin-left: -3px;
+        height: 35px;margin-top: 110px;
+    }
+
+    #fasilitas #arrow-right{
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
+        margin-top: 112px;
+        margin-left: -7px;
+        position: absolute;
+        padding-left: 5px;padding-bottom: 10px;
+        padding-top: 5px;padding-right: 6px;
+    }
+
+    #fasilitas{
+        height: 420px;
+    }
+
+    #fasilitas h2{
+        font-size: 30px;
+        margin-top: 50px
+    }
+
+    #fasilitas .fasilitas{
+        width: 350px;
+        height: 230px;
+        margin-left: -5px;
+        margin-top: 10px;
     }
 
 }
@@ -704,6 +859,42 @@ footer .bottom-details .bottom_text {
         margin-bottom: 20px;
     }
 
+    #fasilitas #arrow-left{
+        border-radius: 50px;
+        padding-left: 10px;padding-bottom: 10px;
+        padding-top: 5px;padding-right: 16px;
+        width: 35px;
+        margin-left: -9px;
+        height: 35px;margin-top: 90px;
+    }
+
+    #fasilitas #arrow-right{
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
+        margin-top: 92px;
+        margin-left: 13px;
+        position: absolute;
+        padding-left: 5px;padding-bottom: 10px;
+        padding-top: 5px;padding-right: 6px;
+    }
+
+    #fasilitas{
+        height: 410px;
+    }
+
+    #fasilitas h2{
+        font-size: 29px;
+        margin-top: 50px
+    }
+
+    #fasilitas .fasilitas{
+        width: 290px;
+        height: 200px;
+        margin-left: -5px;
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1001px){
@@ -714,9 +905,39 @@ footer .bottom-details .bottom_text {
     #sejarah{
         background: #BCE7EB;
         margin-top: 100px;
-        height: 1000px;
+        height: 1100px;
         padding: 20px
     }
+
+    #fasilitas #arrow-left{
+        border-radius: 50px;
+        padding-left: 12px;padding-bottom: 10px;
+        padding-top: 7px;padding-right: 16px;
+        width: 45px;
+        margin-left: 10px;
+        height: 45px;margin-top: 100px;
+    }
+
+    #fasilitas #arrow-right{
+        border-radius: 50px;
+        width: 45px;
+        height: 45px;
+        margin-top: 102px;
+        margin-left: 13px;
+        position: absolute;
+        padding-left: 5px;padding-bottom: 10px;
+        padding-top: 7px;padding-right: 6px;
+    }
+
+    #fasilitas{
+        height: 410px;
+    }
+
+    #fasilitas h2{
+        font-size: 29px;
+        margin-top: 50px
+    }
+
 }
 
 @media screen and (max-width: 1300px) and (min-width: 1201px){
@@ -736,9 +957,26 @@ footer .bottom-details .bottom_text {
     #sejarah{
         background: #BCE7EB;
         margin-top: 100px;
-        height: 2800px;
+        height: 3200px;
         padding: 20px
     }
+
+    #fasilitas{
+        height: 380px;
+    }
+
+    #fasilitas h2{
+        font-size: 28px;
+        margin-top: 50px
+    }
+
+    #fasilitas .fasilitas{
+        width: 240px;
+        height: 180px;
+        margin-left: -5px;
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (min-width: 356px) and (max-width: 394px){
@@ -747,5 +985,20 @@ footer .bottom-details .bottom_text {
         margin-top: 100px;
         height: 2550px;
         padding: 20px
+    }
+
+    #fasilitas{
+        height: 380px;
+    }
+
+    #fasilitas h2{
+        font-size: 28px;
+        margin-top: 50px
+    }
+
+    #fasilitas .fasilitas{
+        width: 300px;
+        height: 210px;
+        margin-left: -5px;
     }
 }

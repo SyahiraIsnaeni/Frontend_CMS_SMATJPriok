@@ -145,6 +145,59 @@
   </div>
 </section>
 
+<!-- Fasilitas Sekolah -->
+<section id="fasilitas" class="overflow-hidden" style="">
+  <h2><b>Fasilitas Sekolah</b></h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-1 d-flex justify-content-start">
+        <button id="arrow-left" onclick="prev()" onmouseover="this.style.backgroundColor='#136A71';this.style.color= '#ffffff'"
+                onmouseout="this.style.backgroundColor= '#ffffff';this.style.color= 'black'">
+          <i class="panah fa-solid fa-chevron-left fa-lg-2xl fa-md-xxl fa-sm-xl"></i>
+        </button>
+      </div>
+      <div class="main-card col-10 d-flex justify-content-start" id="main-card" style="overflow-x: hidden;">
+        <div class="card-fasilitas me-3">
+          <img src="assets/blog1.jpeg" class="fasilitas rounded" width="350" height="240">
+        </div>
+        <div class="card-fasilitas me-3">
+          <img src="assets/blog2.jpg" class="fasilitas rounded" width="350" height="240">
+        </div>
+        <div class="card-fasilitas me-3">
+          <img src="assets/blog3.jpg" class="fasilitas rounded" width="350" height="240">
+        </div>
+        <div class="card-fasilitas me-3">
+          <img src="assets/blog4.jpg" class="fasilitas rounded" width="350" height="240">
+        </div>
+        <div class="card-fasilitas me-3">
+          <img src="assets/smp.png" class="fasilitas rounded" width="350" height="240">
+        </div>
+      </div>
+      <div class="col-1 d-flex justify-content-start">
+        <div>
+          <button id="arrow-right" onclick="next()"
+                  onmouseover="this.style.backgroundColor='#136A71';this.style.color= '#ffffff'"
+                  onmouseout="this.style.backgroundColor= '#ffffff';this.style.color= 'black'">
+            <i class="fa-solid fa-chevron-right fa-lg-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var sliderMain = document.getElementById("main-card");
+    var item = sliderMain.getElementsByClassName("card-fasilitas");
+
+    function next(){
+      sliderMain.append(item[0]);
+    }
+
+    function prev(){
+      sliderMain.prepend(item[item.length - 1]);
+    }
+  </script>
+</section>
+
 <!-- Footer -->
 <footer class="" style="width: 100%;margin-top: 30px">
   <div class="content">
