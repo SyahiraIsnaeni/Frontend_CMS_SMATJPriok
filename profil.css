@@ -105,7 +105,6 @@ section {
 body {
     line-height: 1;
 }
-ol,
 ul {
     list-style: none;
 }
@@ -149,7 +148,7 @@ p {
   background-color: #136a71;
 } */
 
-li,
+#navbar li,
 a,
 button {
     font-family: "poppins";
@@ -372,6 +371,23 @@ footer .bottom-details .bottom_text {
     margin-top: 50px;
 }
 
+#visimisi ol{
+    margin-left: -15px;
+    font-size: 18px;
+}
+
+#visimisi p{
+    font-size: 18px;
+}
+
+#visimisi h2{
+    font-size: 37px;
+}
+
+#visimisi img{
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 299px) {
 
     .carousel-image {
@@ -413,6 +429,28 @@ footer .bottom-details .bottom_text {
         font-size: 15px;
     }
 
+    #visimisi ol{
+        margin-left: -35px;
+        font-size: 15px;
+    }
+
+    #visimisi p{
+        font-size: 15px;
+        margin-left: -20px;
+    }
+
+    #visimisi h2{
+        font-size: 28px;
+        margin-left: -20px;
+    }
+
+    #visimisi img{
+        margin-top: 10px;
+        width: 300px;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 394px) {
@@ -445,6 +483,28 @@ footer .bottom-details .bottom_text {
 
     #sejarah p{
         font-size: 17px;
+    }
+
+    #visimisi ol{
+        margin-left: -40px;
+        font-size: 17px;
+    }
+
+    #visimisi p{
+        font-size: 17px;
+        margin-left: -25px;
+    }
+
+    #visimisi h2{
+        font-size: 28px;
+        margin-left: -25px;
+    }
+
+    #visimisi img{
+        margin-top: 10px;
+        width: 310px;
+        height: 320px;
+        margin-bottom: 20px;
     }
 
 }
@@ -487,6 +547,28 @@ footer .bottom-details .bottom_text {
 
     #sejarah p{
         font-size: 18px;
+    }
+
+    #visimisi ol{
+        margin-left: -40px;
+        font-size: 18px;
+    }
+
+    #visimisi p{
+        font-size: 18px;
+        margin-left: -25px;
+    }
+
+    #visimisi h2{
+        font-size: 29px;
+        margin-left: -25px;
+    }
+
+    #visimisi img{
+        margin-top: 10px;
+        width: 340px;
+        height: 350px;
+        margin-bottom: 20px;
     }
 
 }
@@ -533,6 +615,28 @@ footer .bottom-details .bottom_text {
         font-size: 19px;
     }
 
+    #visimisi ol{
+        margin-left: -40px;
+        font-size: 19px;
+    }
+
+    #visimisi p{
+        font-size: 19px;
+        margin-left: -50px;
+    }
+
+    #visimisi h2{
+        font-size: 30px;
+        margin-left: -25px;
+    }
+
+    #visimisi img{
+        margin-top: 10px;
+        width: 470px;
+        height: 480px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) and (min-width: 701px) {
@@ -552,7 +656,7 @@ footer .bottom-details .bottom_text {
     #sambutan h2{
         margin-top: -560px;
         margin-bottom: 10px;
-        font-size: 30px;
+        font-size: 31px;
         margin-left: -20px;
     }
 
@@ -575,6 +679,29 @@ footer .bottom-details .bottom_text {
 
     #sejarah p{
         font-size: 20px;
+    }
+
+    #visimisi ol{
+        margin-left: -40px;
+        font-size: 20px;
+    }
+
+    #visimisi p{
+        font-size: 20px;
+        margin-left: -210px;
+        text-align: justify;
+    }
+
+    #visimisi h2{
+        font-size: 30px;
+        margin-left: -25px;
+    }
+
+    #visimisi img{
+        margin-top: 10px;
+        width: 550px;
+        height: 550px;
+        margin-bottom: 20px;
     }
 
 }
