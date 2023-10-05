@@ -416,6 +416,11 @@ footer .bottom-details .bottom_text {
     margin-left: 8px;box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
+#struktur h2{
+    text-align: center;
+    font-size: 37px;
+}
+
 
 @media screen and (max-width: 299px) {
 
@@ -514,6 +519,16 @@ footer .bottom-details .bottom_text {
         padding-top: 3px;padding-right: 6px;
     }
 
+    #struktur h2{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    #struktur img{
+        width: 280px;
+        height: 160px;
+    }
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 394px) {
@@ -588,6 +603,16 @@ footer .bottom-details .bottom_text {
         position: absolute;
         padding-left: 5px;padding-bottom: 10px;
         padding-top: 3px;padding-right: 6px;
+    }
+
+    #struktur h2{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    #struktur img{
+        width: 350px;
+        height: 190px;
     }
 
 }
@@ -688,6 +713,16 @@ footer .bottom-details .bottom_text {
         height: 230px;
         margin-left: -5px;
         margin-top: 10px;
+    }
+
+    #struktur h2{
+        text-align: center;
+        font-size: 29px;
+    }
+
+    #struktur img{
+        width: 390px;
+        height: 200px;
     }
 
 }
@@ -792,6 +827,16 @@ footer .bottom-details .bottom_text {
         margin-top: 10px;
     }
 
+    #struktur h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #struktur img{
+        width: 530px;
+        height: 270px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) and (min-width: 701px) {
@@ -884,7 +929,7 @@ footer .bottom-details .bottom_text {
     }
 
     #fasilitas h2{
-        font-size: 29px;
+        font-size: 30px;
         margin-top: 50px
     }
 
@@ -893,6 +938,16 @@ footer .bottom-details .bottom_text {
         height: 200px;
         margin-left: -5px;
         margin-top: 10px;
+    }
+
+    #struktur h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #struktur img{
+        width: 750px;
+        height: 430px;
     }
 
 }
@@ -936,6 +991,16 @@ footer .bottom-details .bottom_text {
     #fasilitas h2{
         font-size: 29px;
         margin-top: 50px
+    }
+
+    #struktur h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #struktur img{
+        width: 850px;
+        height: 450px;
     }
 
 }
