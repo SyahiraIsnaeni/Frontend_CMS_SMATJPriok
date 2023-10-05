@@ -149,7 +149,10 @@ p {
   background-color: #136a71;
 } */
 
-.gambarF {
+.gambarF1,
+.gambarF2,
+.gambarF3,
+.gambarF4 {
   /* width: 20px;
   height: 10px; */
   transform: translateX((0px));
@@ -354,16 +357,15 @@ footer .bottom-details .bottom_text {
   justify-content: space-between;
 }
 
-.carousel-image{
+.carousel-image {
   height: 100vh;
 }
 
-#pengenalan p{
+#pengenalan p {
   font-size: 20px;
 }
 
-
-#floating p{
+#floating p {
   font-size: 22px;
   font-weight: bold;
   max-width: 500px;
@@ -372,48 +374,61 @@ footer .bottom-details .bottom_text {
   margin-left: 20px;
 }
 
-#floating .gambarPostingan{
+#floating .gambarPostingan {
   width: 250px;
   height: 250px;
   margin-bottom: 15px;
-  position:absolute;
+  position: absolute;
   margin-left: 520px;
   margin-top: -90px;
 }
 
-#floating .gambarF1{
+#floating .gambarF1 {
   height: 120px;
   margin-top: 50px;
   margin-left: 150px;
 }
 
-#floating .gambarF2{
+#floating .gambarF2 {
   height: 300px;
   position: absolute;
   margin-left: 1090px;
   margin-top: -200px;
 }
 
-#floating .gambarF3{
+#floating .gambarF3 {
   position: absolute;
   height: 300px;
   margin-left: -80px;
   margin-top: 100px;
 }
 
-#floating .gambarF4{
+#floating .gambarF4 {
   height: 120px;
   position: absolute;
   margin-left: 1040px;
   margin-top: 190px;
 }
 
-#tulisan{
+#tulisan {
   max-width: 500px;
   margin: 0 auto;
   position: absolute;
   margin-top: 165px;
   margin-left: 390px;
+}
+
+#ekskul h3 {
+  text-align: center;
+  position: center;
+  font-family: "poppins";
+}
+
+#ekskul img {
+  height: 250px;
+  width: 310px;
+  position: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 299px) {
@@ -438,6 +453,13 @@ footer .bottom-details .bottom_text {
 
   #pengenalan p {
     margin-top: 230px;
+  }
+
+  #ekskul img {
+    height: 30px;
+    /* width: 310px; */
+    position: center;
+    text-align: center;
   }
 
   .carousel-image {
@@ -493,6 +515,13 @@ footer .bottom-details .bottom_text {
     width: 450px;
     margin-left: -225px;
   }
+
+  #ekskul img {
+    height: 40px;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 310px;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 394px) {
@@ -519,17 +548,17 @@ footer .bottom-details .bottom_text {
     margin-top: 260px;
   }
 
-  .carousel-image{
+  .carousel-image {
     height: 35vh;
   }
 
-  #tulisan{
+  #tulisan {
     width: 500px;
     margin-top: 135px;
     margin-left: -210px;
   }
 
-  #floating p{
+  #floating p {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -537,21 +566,21 @@ footer .bottom-details .bottom_text {
     margin-left: 280px;
   }
 
-  #floating .gambarPostingan{
+  #floating .gambarPostingan {
     width: 170px;
     height: 170px;
     margin-top: -40px;
-    position:center;
+    position: center;
     margin-left: 95px;
   }
 
-  #floating .gambarF1{
+  #floating .gambarF1 {
     height: 70px;
     margin-top: 45px;
     margin-left: 20px;
   }
 
-  #floating .gambarF2{
+  #floating .gambarF2 {
     position: relative;
     height: 120px;
     justify-self: end;
@@ -559,21 +588,21 @@ footer .bottom-details .bottom_text {
     margin-top: -115px;
   }
 
-  #floating .gambarF3{
+  #floating .gambarF3 {
     position: absolute;
     height: 130px;
     margin-left: -60px;
     margin-top: 240px;
   }
 
-  #floating .gambarF4{
+  #floating .gambarF4 {
     height: 70px;
     position: absolute;
     margin-left: 265px;
     margin-top: 270px;
   }
 
-  #button-postingan .card-button1{
+  #button-postingan .card-button1 {
     background-color: white;
     width: 253px;
     height: 180px;
@@ -606,14 +635,12 @@ footer .bottom-details .bottom_text {
     margin-top: 270px;
   }
 
-  .carousel-image{
+  .carousel-image {
     height: 35vh;
   }
-
 }
 
-@media screen and (min-width: 501px) and (max-width: 700px){
-
+@media screen and (min-width: 501px) and (max-width: 700px) {
   #pengenalan p {
     font-size: 18px;
     margin-left: -25px;
@@ -633,13 +660,13 @@ footer .bottom-details .bottom_text {
     text-align: center;
   }
 
-  #tulisan{
+  #tulisan {
     width: 600px;
     margin-top: 150px;
     margin-left: -150px;
   }
 
-  #floating p{
+  #floating p {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -648,21 +675,21 @@ footer .bottom-details .bottom_text {
     width: 350px;
   }
 
-  #floating .gambarPostingan{
+  #floating .gambarPostingan {
     width: 200px;
     height: 200px;
     margin-top: -50px;
-    position:absolute;
+    position: absolute;
     margin-left: 160px;
   }
 
-  #floating .gambarF1{
+  #floating .gambarF1 {
     height: 70px;
     margin-top: 50px;
     margin-left: 70px;
   }
 
-  #floating .gambarF2{
+  #floating .gambarF2 {
     position: relative;
     height: 150px;
     justify-self: end;
@@ -670,28 +697,27 @@ footer .bottom-details .bottom_text {
     margin-top: -120px;
   }
 
-  #floating .gambarF3{
+  #floating .gambarF3 {
     position: absolute;
     height: 150px;
     margin-left: -30px;
     margin-top: 240px;
   }
 
-  #floating .gambarF4{
+  #floating .gambarF4 {
     height: 70px;
     position: absolute;
     margin-left: 385px;
     margin-top: 270px;
   }
 
-  .carousel-image{
+  .carousel-image {
     height: 50vh;
     margin-bottom: 10px;
   }
-
 }
 
-@media screen and (min-width: 395px) and (max-width: 500px){
+@media screen and (min-width: 395px) and (max-width: 500px) {
   #pengenalan p {
     font-size: 16px;
     margin-left: -25px;
@@ -711,13 +737,13 @@ footer .bottom-details .bottom_text {
     text-align: center;
   }
 
-  #tulisan{
+  #tulisan {
     width: 500px;
     margin-top: 140px;
     margin-left: -192px;
   }
 
-  #floating p{
+  #floating p {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -726,21 +752,21 @@ footer .bottom-details .bottom_text {
     margin-left: 245px;
   }
 
-  #floating .gambarPostingan{
+  #floating .gambarPostingan {
     width: 190px;
     height: 190px;
     margin-top: -50px;
-    position:center;
+    position: center;
     margin-left: 100px;
   }
 
-  #floating .gambarF1{
+  #floating .gambarF1 {
     height: 70px;
     margin-top: 50px;
     margin-left: 20px;
   }
 
-  #floating .gambarF2{
+  #floating .gambarF2 {
     position: relative;
     height: 120px;
     justify-self: end;
@@ -748,21 +774,21 @@ footer .bottom-details .bottom_text {
     margin-top: -120px;
   }
 
-  #floating .gambarF3{
+  #floating .gambarF3 {
     position: absolute;
     height: 130px;
     margin-left: -60px;
     margin-top: 240px;
   }
 
-  #floating .gambarF4{
+  #floating .gambarF4 {
     height: 70px;
     position: absolute;
     margin-left: 300px;
     margin-top: 270px;
   }
 
-  .carousel-image{
+  .carousel-image {
     height: 40vh;
   }
 }
@@ -788,18 +814,18 @@ footer .bottom-details .bottom_text {
     margin-left: -40px;
   }
 
-  .carousel-image{
+  .carousel-image {
     height: 50vh;
     margin-bottom: 30px;
   }
 
-  #tulisan{
+  #tulisan {
     width: 500px;
     margin-top: 150px;
     margin-left: -140px;
   }
 
-  #floating p{
+  #floating p {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -808,21 +834,21 @@ footer .bottom-details .bottom_text {
     margin-left: 250px;
   }
 
-  #floating .gambarPostingan{
+  #floating .gambarPostingan {
     width: 230px;
     height: 230px;
     margin-top: -80px;
-    position:center;
+    position: center;
     margin-left: 230px;
   }
 
-  #floating .gambarF1{
+  #floating .gambarF1 {
     height: 80px;
     margin-top: 50px;
     margin-left: 70px;
   }
 
-  #floating .gambarF2{
+  #floating .gambarF2 {
     position: relative;
     height: 150px;
     justify-self: end;
@@ -830,14 +856,14 @@ footer .bottom-details .bottom_text {
     margin-top: -120px;
   }
 
-  #floating .gambarF3{
+  #floating .gambarF3 {
     position: absolute;
     height: 150px;
     margin-left: -60px;
     margin-top: 240px;
   }
 
-  #floating .gambarF4{
+  #floating .gambarF4 {
     height: 80px;
     position: absolute;
     margin-left: 540px;
@@ -845,14 +871,14 @@ footer .bottom-details .bottom_text {
   }
 }
 
-@media screen and (max-width: 1300px) and (min-width: 1201px){
-  #tulisan{
+@media screen and (max-width: 1300px) and (min-width: 1201px) {
+  #tulisan {
     width: 1000px;
     margin-top: 150px;
     margin-left: 70px;
   }
 
-  #floating p{
+  #floating p {
     font-size: 23px;
     font-weight: bold;
     text-align: center;
@@ -861,21 +887,21 @@ footer .bottom-details .bottom_text {
     margin-left: 250px;
   }
 
-  #floating .gambarPostingan{
+  #floating .gambarPostingan {
     width: 230px;
     height: 230px;
     margin-top: -80px;
-    position:center;
+    position: center;
     margin-left: 450px;
   }
 
-  #floating .gambarF1{
+  #floating .gambarF1 {
     height: 80px;
     margin-top: 50px;
     margin-left: 150px;
   }
 
-  #floating .gambarF2{
+  #floating .gambarF2 {
     position: relative;
     height: 160px;
     justify-self: end;
@@ -883,14 +909,14 @@ footer .bottom-details .bottom_text {
     margin-top: -120px;
   }
 
-  #floating .gambarF3{
+  #floating .gambarF3 {
     position: absolute;
     height: 160px;
     margin-left: -20px;
     margin-top: 240px;
   }
 
-  #floating .gambarF4{
+  #floating .gambarF4 {
     height: 80px;
     position: absolute;
     margin-left: 910px;
@@ -898,14 +924,14 @@ footer .bottom-details .bottom_text {
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 1001px){
-  #tulisan{
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+  #tulisan {
     width: 1000px;
     margin-top: 150px;
     margin-left: 0px;
   }
 
-  #floating p{
+  #floating p {
     font-size: 23px;
     font-weight: bold;
     text-align: center;
@@ -914,21 +940,21 @@ footer .bottom-details .bottom_text {
     margin-left: 250px;
   }
 
-  #floating .gambarPostingan{
+  #floating .gambarPostingan {
     width: 230px;
     height: 230px;
     margin-top: -80px;
-    position:center;
+    position: center;
     margin-left: 380px;
   }
 
-  #floating .gambarF1{
+  #floating .gambarF1 {
     height: 80px;
     margin-top: 50px;
     margin-left: 120px;
   }
 
-  #floating .gambarF2{
+  #floating .gambarF2 {
     position: relative;
     height: 160px;
     justify-self: end;
@@ -936,14 +962,14 @@ footer .bottom-details .bottom_text {
     margin-top: -120px;
   }
 
-  #floating .gambarF3{
+  #floating .gambarF3 {
     position: absolute;
     height: 160px;
     margin-left: -20px;
     margin-top: 240px;
   }
 
-  #floating .gambarF4{
+  #floating .gambarF4 {
     height: 80px;
     position: absolute;
     margin-left: 800px;
