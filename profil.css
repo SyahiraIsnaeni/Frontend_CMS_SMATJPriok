@@ -340,6 +340,7 @@ footer .bottom-details .bottom_text {
 }
 
 #sambutan p{
+    margin-top: 20px;
     font-size: 19px;
 }
 
@@ -349,6 +350,26 @@ footer .bottom-details .bottom_text {
 
 #sambutan img{
     margin-top: 10px;
+}
+
+#sejarah p{
+    margin-top: 10px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+#sejarah{
+    background: #BCE7EB;
+    margin-top: 100px;
+    height: 850px;
+    padding: 20px
+}
+
+#sejarah h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 37px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 299px) {
@@ -367,7 +388,7 @@ footer .bottom-details .bottom_text {
     #sambutan h2{
         margin-top: -320px;
         margin-bottom: 10px;
-        font-size: 21px;
+        font-size: 22px;
         margin-left: -25px;
     }
 
@@ -375,6 +396,21 @@ footer .bottom-details .bottom_text {
         margin-top: 10px;
         width: 200px;
         height: 250px;
+    }
+
+    #sejarah{
+        background: #BCE7EB;
+        margin-top: 100px;
+        height: 2800px;
+        padding: 20px
+    }
+
+    #sejarah h2{
+        font-size: 28px;
+    }
+
+    #sejarah p{
+        font-size: 15px;
     }
 
 }
@@ -394,13 +430,21 @@ footer .bottom-details .bottom_text {
     #sambutan h2{
         margin-top: -350px;
         margin-bottom: 10px;
-        font-size: 23px;
+        font-size: 25px;
         margin-left: -25px;
     }
 
     #sambutan img{
         width: 250px;
         height: 300px;
+    }
+
+    #sejarah h2{
+        font-size: 28px;
+    }
+
+    #sejarah p{
+        font-size: 17px;
     }
 
 }
@@ -421,13 +465,28 @@ footer .bottom-details .bottom_text {
     #sambutan h2{
         margin-top: -390px;
         margin-bottom: 10px;
-        font-size: 25px;
+        font-size: 26px;
         margin-left: -20px;
     }
 
     #sambutan img{
         width: 280px;
         height: 340px;
+    }
+
+    #sejarah{
+        background: #BCE7EB;
+        margin-top: 100px;
+        height: 2400px;
+        padding: 20px
+    }
+
+    #sejarah h2{
+        font-size: 29px;
+    }
+
+    #sejarah p{
+        font-size: 18px;
     }
 
 }
@@ -443,20 +502,35 @@ footer .bottom-details .bottom_text {
         font-size: 19px;
         margin-top: 380px;
         margin-left: -20px;
-        width: 420px;
+        width: 490px;
     }
 
     #sambutan h2{
         margin-top: -390px;
         margin-bottom: 10px;
-        font-size: 26px;
+        font-size: 27px;
         margin-left: -20px;
     }
 
     #sambutan img{
         width: 280px;
         height: 340px;
-        margin-left: -90px;
+        margin-left: -30px;
+    }
+
+    #sejarah{
+        background: #BCE7EB;
+        margin-top: 100px;
+        height: 2100px;
+        padding: 20px
+    }
+
+    #sejarah h2{
+        font-size: 30px;
+    }
+
+    #sejarah p{
+        font-size: 19px;
     }
 
 }
@@ -478,7 +552,7 @@ footer .bottom-details .bottom_text {
     #sambutan h2{
         margin-top: -560px;
         margin-bottom: 10px;
-        font-size: 29px;
+        font-size: 30px;
         margin-left: -20px;
     }
 
@@ -488,11 +562,33 @@ footer .bottom-details .bottom_text {
         margin-left: -30px;
     }
 
+    #sejarah{
+        background: #BCE7EB;
+        margin-top: 100px;
+        height: 1600px;
+        padding: 20px
+    }
+
+    #sejarah h2{
+        font-size: 32px;
+    }
+
+    #sejarah p{
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1001px){
     #sambutan img{
         margin-left: 40px;
+    }
+
+    #sejarah{
+        background: #BCE7EB;
+        margin-top: 100px;
+        height: 1000px;
+        padding: 20px
     }
 }
 
@@ -500,5 +596,29 @@ footer .bottom-details .bottom_text {
     #sambutan img{
         margin-left: 40px;
     }
+
+    #sejarah{
+        background: #BCE7EB;
+        margin-top: 100px;
+        height: 1000px;
+        padding: 20px
+    }
 }
 
+@media screen and (min-width: 300px) and (max-width: 355px){
+    #sejarah{
+        background: #BCE7EB;
+        margin-top: 100px;
+        height: 2800px;
+        padding: 20px
+    }
+}
+
+@media screen and (min-width: 356px) and (max-width: 394px){
+    #sejarah{
+        background: #BCE7EB;
+        margin-top: 100px;
+        height: 2550px;
+        padding: 20px
+    }
+}
