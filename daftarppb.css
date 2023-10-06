@@ -127,6 +127,13 @@ table {
 
 /*STYLE*/
 
+.header {
+  font-weight: bold;
+  margin-top: -100px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
 .judulppb1 {
     font-size: 32px;
     font-weight: bold;
@@ -134,12 +141,23 @@ table {
     font-style: normal;
 }
 
-.isippb1 {
+.isippb1, .isippb2, .isippb3 {
     font-size: 18px;
-    color: gray;
-    font-style: normal;
+    color: black;
+    font-style: unset;
     line-height: 2;
+    font-weight: 400;
+
 }
+
+.tulisan a {
+  transition: all 0.3s ease 0s;
+}
+
+.tulisan a:hover {
+  color: #16949e;
+}
+
 
 p {
     font-family: "Poppins", sans-serif;

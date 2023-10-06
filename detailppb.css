@@ -157,6 +157,29 @@ table {
 	margin-top: -4px;
 }
 
+
+.foto {
+    margin-bottom: 20px;
+  }
+  
+.tulisan {
+    color: black;
+    font-size: 15px;
+  }
+
+.row h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.foto a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  a:hover p {
+    text-decoration: underline;
+  }
+
 p {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
