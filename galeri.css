@@ -177,7 +177,7 @@ header {
   transition: all 0.3s ease 0s;
 }
 .navbar-nav li a:hover {
-  color: #def32c;
+  color: #ffff;
 }
 button {
   padding: 9px 25px;
@@ -187,7 +187,7 @@ button {
   transition: all 0.3s ease;
 }
 button:hover {
-  background-color: #def32c;
+  background-color: #bce7eb;
 }
 
 footer {
