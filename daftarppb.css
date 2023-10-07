@@ -158,6 +158,225 @@ table {
   color: #16949e;
 }
 
+@media screen and (max-width: 299px) {
+  .carousel-image {
+    height: 30vh;
+  }
+
+  #pengenalan img {
+    width: 230px;
+    height: 300px;
+  }
+
+  #pengenalan h2 {
+    font-family: "poppins";
+  }
+
+  #pengenalan .isippb1 {
+    font-family: "poppins";
+    margin-bottom: 60px;
+  }
+
+  #pengenalan .isippb2 {
+    font-family: "poppins";
+    margin-bottom: 60px;
+  }
+
+  #pengenalan .isippb3 {
+    font-family: "poppins";
+    margin-bottom: 60px;
+  }
+
+  #pengenalan .tulisan {
+    font-size: 12px;
+    margin-top: -80px;
+
+  }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 394px) {
+  .carousel-image {
+    height: 35vh;
+  }
+
+  #pengenalan img{
+  width: 300px;
+  height: 350px;
+  }
+
+  #pengenalan h2 {
+    font-family: "poppins";
+  }
+
+  #pengenalan .isippb1 {
+    font-family: "poppins";
+    margin-bottom: 60px;
+  }
+
+  #pengenalan .isippb2 {
+    font-family: "poppins";
+    margin-bottom: 60px;
+  }
+
+  #pengenalan .isippb3 {
+    font-family: "poppins";
+    margin-bottom: 60px;
+  }
+
+  #pengenalan .tulisan {
+    font-size: 12px;
+    margin-top: -80px;
+
+  }
+}
+
+@media screen and (min-width: 395px) and (max-width: 420px) {
+  .carousel-image {
+    height: 35vh;
+  }
+
+  #pengenalan img{
+    width: 300px;
+    height: 350px;
+    }
+  
+    #pengenalan h2 {
+      font-family: "poppins";
+    }
+  
+    #pengenalan .isippb1 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .isippb2 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .isippb3 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .tulisan {
+      font-size: 12px;
+      margin-top: -80px;
+  
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .carousel-image {
+    height: 50vh;
+    margin-bottom: 10px;
+  }
+
+  #pengenalan img{
+    width: 400px;
+    height: 450px;
+    }
+  
+    #pengenalan h2 {
+      font-family: "poppins";
+    }
+  
+    #pengenalan .isippb1 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .isippb2 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .isippb3 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .tulisan {
+      font-size: 12px;
+      margin-top: -80px;
+  
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 500px) {
+  .carousel-image {
+    height: 40vh;
+  }
+
+  #pengenalan img{
+    width: 300px;
+    height: 350px;
+    }
+  
+    #pengenalan h2 {
+      font-family: "poppins";
+    }
+  
+    #pengenalan .isippb1 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .isippb2 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .isippb3 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .tulisan {
+      font-size: 12px;
+      margin-top: -80px;
+  
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 701px) {
+  .carousel-image {
+    height: 50vh;
+    margin-bottom: 30px;
+  }
+
+  #pengenalan img{
+    width: 600px;
+    height: 650px;
+    }
+  
+    #pengenalan h2 {
+      font-family: "poppins";
+    }
+  
+    #pengenalan .isippb1 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .isippb2 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .isippb3 {
+      font-family: "poppins";
+      margin-bottom: 60px;
+    }
+  
+    #pengenalan .tulisan {
+      font-size: 12px;
+      margin-top: -80px;
+  
+    }
+}
+
 
 p {
     font-family: "Poppins", sans-serif;
