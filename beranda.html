@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
   <title>SMA Tanjung Priok Jakarta</title>
   <!-- add icon link -->
@@ -22,40 +22,41 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 <!-- NAVBAR -->
-<header>
+<header id="navbar">
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #136a71; justify-content: center">
     <div class="container" style="background-color: #136a71" style="align-items: center">
-      <a class="navbar-brand" style="font-size: 15px; text-align: center; float: center" href="index.html">
-        <img src="assets/logo.png" alt="logo" height="50" style="float: left" /><strong> SMA TANJUNG PRIOK<br />JAKARTA UTARA</strong>
+      <a class="navbar-brand" style="font-size: 15px; text-align: center; float: center" href="beranda.html">
+        <img src="assets/logo.png" alt="logo" height="50" style="float: left" /><strong> SMA TANJUNG PRIOK<br />JAKARTA UTARA</strong>     
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <nav>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" style="font-weight: bolder; letter-spacing: 0px">
+          <ul class="navbar-nav " style="font-weight: bolder; letter-spacing: 0px">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+              <a class="nav-link active" aria-current="page" href="beranda.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="profil.html">Profil</a>
+              <a class="nav-link" href="https://sd.bintangjuara.sch.id/772-2/">Profil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pendidik.html">Guru & Staf</a>
+              <a class="nav-link" href="https://sd.bintangjuara.sch.id/772-2/">Guru & Staf</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Galeri.html">Galeri</a>
+              <a class="nav-link" href="http://ppdb.bintangjuara.sch.id/">Galeri</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="E-Learning.html">E-Learning</a>
+              <a class="nav-link" href="kontak.html">E-Learning</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="gallery.html">Kontak</a>
             </li>
+           
           </ul>
+          <a class="cta" href="#" style="color: #136a71"><button style="border-radius: 6px; color: #136a71">Login</button></a>
         </div>
       </nav>
-      <a class="cta" href="#" style="color: #136a71"><button style="border-radius: 6px; color: #136a71">Login</button></a>
     </div>
   </nav>
 </header>
@@ -478,13 +479,10 @@
   <h2 style="text-align: center;margin-bottom: 30px;font-size: 37px"><b>Blog Pendidik</b></h2>
   <div class="container">
     <div class="row">
+     
       <div class="col-1 d-flex justify-content-start">
-        <button id="arrow-left" onclick="prev()" style="border-radius: 50px;
-              background-color: white; padding-left: 10px;padding-bottom: 10px;
-                    padding-top: 12px;padding-right: 16px; width: 76px;height: 73px;margin-top: 90px;
-                    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3); " onmouseover="this.style.backgroundColor='#136A71';this.style.color= '#ffffff'"
-                onmouseout="this.style.backgroundColor= '#ffffff';this.style.color= 'black'">
-          <i class="fa-solid fa-chevron-left fa-2xl" style="margin-left: 4px;"></i>
+        <button id="arrow-left" onclick="prev()" onmouseover="this.style.backgroundColor='#136A71';this.style.color= '#ffffff'" onmouseout="this.style.backgroundColor= '#ffffff';this.style.color= 'black'" style="background-color: rgb(255, 255, 255); color: black;">
+          <i class="panah fa-solid fa-chevron-left fa-lg-2xl fa-md-xxl fa-sm-xl"></i>
         </button>
       </div>
       <div class="main-card col-10 d-flex justify-content-start" id="main-card" style="overflow-x: hidden;">
@@ -561,13 +559,10 @@
       </div>
       <div class="col-1 d-flex justify-content-start">
         <div>
-          <button id="arrow-right" onclick="next()" style="border-radius: 50px;
-              background-color: white; padding-left: 15px;padding-bottom: 10px;color: black;
-                    padding-top: 12px;padding-right: 16px; width: 76px;height: 73px;margin-top: 90px;
-                    margin-left: 10px;box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);"
+          <button id="arrow-right" onclick="next()"
                   onmouseover="this.style.backgroundColor='#136A71';this.style.color= '#ffffff'"
                   onmouseout="this.style.backgroundColor= '#ffffff';this.style.color= 'black'">
-            <i class="fa-solid fa-chevron-right fa-2xl"></i>
+            <i class="fa-solid fa-chevron-right fa-lg-2xl"></i>
           </button>
         </div>
       </div>
