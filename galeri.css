@@ -372,6 +372,15 @@ footer .bottom-details .bottom_text {
   font-family: "poppins";
 }
 
+.judulprestasi {
+  font-family: "poppins";
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+}
+
 @media screen and (max-width: 299px) {
   .carousel-image {
     height: 30vh;
