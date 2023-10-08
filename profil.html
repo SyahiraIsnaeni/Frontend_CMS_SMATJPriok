@@ -32,22 +32,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav" style="font-weight: bolder; letter-spacing: 0px">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                  <a class="nav-link" href="beranda.html">Beranda</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://sd.bintangjuara.sch.id/772-2/">Profil</a>
+                  <a class="nav-link active" aria-current="page" href="profil.html">Profil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://sd.bintangjuara.sch.id/772-2/">Guru & Staf</a>
+                  <a class="nav-link" href="pendidik.html">Guru & Staf</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://ppdb.bintangjuara.sch.id/">Galeri</a>
+                  <a class="nav-link" href="galeri.html">Galeri</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="kontak.html">E-Learning</a>
+                  <a class="nav-link" href="#">E-Learning</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="gallery.html">Kontak</a>
+                  <a class="nav-link" href="#kontak-kami">Kontak</a>
                 </li>
               </ul>
             </div>
@@ -157,14 +157,14 @@
       <h2><b>Fasilitas Sekolah</b></h2>
       <div class="container">
         <div class="row">
+          <div class="col-1 d-flex justify-content-start">
+            <button id="arrow-left" onclick="prev()" onmouseover="this.style.backgroundColor='#136A71';this.style.color= '#ffffff'" onmouseout="this.style.backgroundColor= '#ffffff';this.style.color= 'black'">
+              <i class="panah fa-solid fa-chevron-left fa-lg-2xl fa-md-xxl fa-sm-xl"></i>
+            </button>
+          </div>
           <div class="main-card col-10 d-flex justify-content-start" id="main-card" style="overflow-x: hidden">
-            <div class="col-1 d-flex justify-content-start">
-              <button id="arrow-left" onclick="prev()" onmouseover="this.style.backgroundColor='#136A71';this.style.color= '#ffffff'" onmouseout="this.style.backgroundColor= '#ffffff';this.style.color= 'black'">
-                <i class="panah fa-solid fa-chevron-left fa-lg-2xl fa-md-xxl fa-sm-xl"></i>
-              </button>
-            </div>
             <div class="card-fasilitas me-3">
-              <img src="assets/blog1.jpeg" class="fasilitas rounded" width="350" height="240" />
+              <img src="assets/blog1.jpg" class="fasilitas rounded" width="350" height="240" />
             </div>
             <div class="card-fasilitas me-3">
               <img src="assets/blog2.jpg" class="fasilitas rounded" width="350" height="240" />
@@ -173,12 +173,13 @@
               <img src="assets/blog3.jpg" class="fasilitas rounded" width="350" height="240" />
             </div>
             <div class="card-fasilitas me-3">
-              <img src="assets/blog4.jpg" class="fasilitas rounded" width="350" height="240" />
+              <img src="assets/blog1.jpg" class="fasilitas rounded" width="350" height="240" />
             </div>
             <div class="card-fasilitas me-3">
               <img src="assets/smp.png" class="fasilitas rounded" width="350" height="240" />
             </div>
           </div>
+
           <div class="col-1 d-flex justify-content-start">
             <div>
               <button id="arrow-right" onclick="next()" onmouseover="this.style.backgroundColor='#136A71';this.style.color= '#ffffff'" onmouseout="this.style.backgroundColor= '#ffffff';this.style.color= 'black'">
@@ -215,7 +216,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="" style="width: 100%; margin-top: 100px">
+    <footer class="" style="width: 100%">
       <div class="content">
         <div class="top">
           <div class="logo-details">
@@ -231,23 +232,23 @@
         <div class="link-boxes">
           <ul class="box">
             <li class="link_name">Content</li>
-            <li><a href="#">Berita Sekolah</a></li>
-            <li><a href="#">Pengumuman</a></li>
-            <li><a href="#">Blog Pendidik</a></li>
+            <li><a href="detailppb.html">Berita Sekolah</a></li>
+            <li><a href="detailppb.html">Pengumuman</a></li>
+            <li><a href="detailppb.html">Blog Pendidik</a></li>
           </ul>
           <ul class="box">
             <li class="link_name">Information</li>
-            <li><a href="#">Profil Sekolah</a></li>
-            <li><a href="#">Guru dan Staf</a></li>
-            <li><a href="#">Galeri Sekolah</a></li>
+            <li><a href="profil.html">Profil Sekolah</a></li>
+            <li><a href="pendidik.html">Guru dan Staf</a></li>
+            <li><a href="galeri.html">Galeri Sekolah</a></li>
           </ul>
           <ul class="box">
             <li class="link_name">Quick Link</li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sitemap</a></li>
+            <li><a href="beranda.html">Home</a></li>
+            <li><a href="#kontak-kami">Sitemap</a></li>
           </ul>
           <ul class="box">
-            <li class="link_name">Contact Us</li>
+            <li class="#kontak-kami">Contact Us</li>
             <li><i class="fas fa-envelope mr-3" style="color: white"></i> smatanjngpriokjkt@gmail.com</li>
             <li><i class="fas fa-phone mr-3" style="color: white"></i> 0984084093580</li>
           </ul>

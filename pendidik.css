@@ -148,14 +148,16 @@ p {
   background-color: #136a71;
 } */
 
-#navbar li,
+li,
 a,
 button {
   font-family: "poppins";
   font-weight: 500;
   font-size: 16px;
 }
-
+#pendidik h2 {
+  font-family: "poppins";
+}
 header {
   display: flex;
   justify-content: space-between;
