@@ -370,6 +370,10 @@ footer .bottom-details .bottom_text {
 
 #eventdet h2 {
   font-family: "poppins";
+  font-size: 37px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .judulprestasi {
@@ -382,6 +386,11 @@ footer .bottom-details .bottom_text {
 }
 
 #prestasidet img {
+  width: 370px;
+  height: 320px;
+}
+
+#eventdet img {
   width: 370px;
   height: 320px;
 }
@@ -421,11 +430,14 @@ footer .bottom-details .bottom_text {
   }
 
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 23px;
+    margin-top: 45px;
   }
 
-  #eventdet .foto {
-    margin-bottom: 20px;
+  #eventdet img {
+    width: 230px;
+    height: 180px;
+    margin-bottom: 30px;
   }
 
   #prestasidet img {
@@ -473,11 +485,14 @@ footer .bottom-details .bottom_text {
   }
 
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 23px;
+    margin-top: 45px;
   }
 
-  #eventdet .foto {
-    margin-bottom: 20px;
+  #eventdet img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 30px;
   }
 
   #prestasidet img {
@@ -522,13 +537,16 @@ footer .bottom-details .bottom_text {
   #event h2 {
     font-family: "poppins";
   }
+  
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 30px;
+    margin-top: 45px;
   }
 
-  #eventdet .foto {
-    margin-bottom: 20px;
-    margin-right: 20px;
+  #eventdet img {
+    width: 320px;
+    height: 270px;
+    margin-bottom: 30px;
   }
 
   #prestasidet img {
@@ -575,12 +593,16 @@ footer .bottom-details .bottom_text {
   #event h2 {
     font-family: "poppins";
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 30px;
+    margin-top: 45px;
   }
 
-  #eventdet .foto {
-    margin-bottom: 20px;
+  #eventdet img {
+    width: 400px;
+    height: 350px;
+    margin-bottom: 30px;
   }
 
   #prestasidet img {
@@ -627,12 +649,16 @@ footer .bottom-details .bottom_text {
   #event h2 {
     font-family: "poppins";
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 30px;
+    margin-top: 45px;
   }
 
-  #eventdet .foto {
-    margin-bottom: 20px;
+  #eventdet img {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 30px;
   }
 
   #prestasidet img {
@@ -680,12 +706,15 @@ footer .bottom-details .bottom_text {
   #event h2 {
     font-family: "poppins";
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 35px;
+    margin-top: 45px;
   }
 
-  #eventdet .foto {
-    margin-bottom: 20px;
+  #eventdet img {
+    width: 210px;
+    height: 160px;
   }
 
   #prestasidet img {
@@ -727,8 +756,15 @@ footer .bottom-details .bottom_text {
   #event h2 {
     font-family: "poppins";
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 45px;
+    margin-top: 50px;
+  }
+
+  #eventdet img {
+    width: 350px;
+    height: 300px;
   }
 
   #prestasidet img {
@@ -770,8 +806,15 @@ footer .bottom-details .bottom_text {
   #event h2 {
     font-family: "poppins";
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 45px;
+    margin-top: 70px;
+  }
+
+  #eventdet img {
+    width: 280px;
+    height: 230px;
   }
 
   #prestasidet img {
