@@ -279,6 +279,113 @@ p {
   }
 }
 
+#ekstrakurikuler {
+  background: #bce7eb;
+  margin-top: 100px;
+  height: 800px;
+  padding: 20px;
+}
+
+#ekstrakurikuler h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 37px;
+  margin-top: 50px;
+}
+
+#ekstrakurikuler #arrow-left-parent {
+  margin-top: 95px;
+  margin-left: 60px;
+}
+
+#ekstrakurikuler #arrow-left-ekskul {
+  border-radius: 50px;
+  background-color: #bce7eb;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-right: 16px;
+  width: 76px;
+  height: 73px;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+#ekstrakurikuler #arrow-left-ekskul img {
+  height: 50px;
+  width: 50px;
+}
+
+#ekstrakurikuler #arrow-right-ekskul {
+  border-radius: 50px;
+  background-color: #bce7eb;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-right: 16px;
+  width: 76px;
+  height: 73px;
+  margin-top: 70px;
+  margin-left: 2px;
+}
+
+#ekstrakurikuler #arrow-right-ekskul img {
+  height: 50px;
+  width: 50px;
+}
+
+#ekstrakurikuler #card-ekskul {
+  margin-left: 30px;
+}
+
+#ekstrakurikuler #judul-ekskul {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  text-align: center;
+}
+
+#ekstrakurikuler #ekskul-sekolah {
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+#ekstrakurikuler .main-card #gambar_ekskul {
+  margin-left: 20px;
+  width: 330px;
+  height: 330px;
+}
+
+#ekstrakurikuler #selengkapnya-ekskul {
+  width: 210px;
+  height: 50px;
+  background-color: white;
+  font-size: 20px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+#ekstrakurikuler .image-ekskul {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+#ekstrakurikuler #image-ekskul {
+  margin-left: 60px;
+  margin-top: 10px;
+  height: 500px;
+  width: 450px;
+}
+
 li,
 a,
 button {
@@ -360,7 +467,7 @@ footer {
   }
 
   .media-icons {
-    margin-top: 0px; /* Atur margin atas untuk ikon media */
+    margin-top: -5px; /* Atur margin atas untuk ikon media */
   }
 
   .link-boxes {
@@ -720,6 +827,115 @@ footer .bottom-details .bottom_text {
     box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);
   }
 
+  #ekstrakurikuler {
+    height: 1000px;
+    padding: 20px;
+  }
+
+  #ekstrakurikuler h2 {
+    font-size: 31px;
+  }
+
+  #ekstrakurikuler #arrow-left-parent {
+    margin-top: 95px;
+    margin-left: 60px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 36px;
+    height: 33px;
+    margin-top: 370px;
+    margin-left: -90px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul img {
+    height: 30px;
+    width: 30px;
+    margin-top: -17px;
+    margin-left: -8px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 36px;
+    height: 33px;
+    margin-top: 370px;
+    margin-left: 45px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul img {
+    height: 30px;
+    width: 30px;
+    margin-top: -17px;
+    margin-left: -10px;
+  }
+
+  #ekstrakurikuler #card-ekskul {
+    margin-left: 30px;
+    margin-top: 300px;
+  }
+
+  #ekstrakurikuler #judul-ekskul {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: -80px;
+    margin-bottom: -5px;
+    position: absolute;
+    margin-top: 260px;
+    text-align: center;
+  }
+
+  #ekstrakurikuler #ekskul-sekolah {
+    color: black;
+    font-size: 16px;
+    margin-left: -85px;
+    margin-top: 300px;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+  }
+
+  #ekstrakurikuler .main-card #gambar_ekskul {
+    margin-left: -95px;
+    width: 180px;
+    height: 180px;
+    margin-top: 50px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #selengkapnya-ekskul {
+    width: 160px;
+    height: 45px;
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-left: -88px;
+    margin-top: 370px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #image-ekskul {
+    margin-left: -14px;
+    margin-top: -470px;
+    height: 300px;
+    width: 250px;
+  }
+
   footer .line {
     content: "";
     position: absolute;
@@ -944,6 +1160,9 @@ footer .bottom-details .bottom_text {
 }
 
 @media screen and (min-width: 300px) and (max-width: 394px) {
+  .media-icons {
+    margin-top: 35px;
+  }
   .navbar-nav {
     flex-direction: column; /* Mengatur item navigasi agar berbaris vertikal */
     text-align: center; /* Mengatur teks agar berada di tengah */
@@ -1011,6 +1230,115 @@ footer .bottom-details .bottom_text {
     margin-top: 95px;
     margin-left: 8px;
     box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  #ekstrakurikuler {
+    height: 1000px;
+    padding: 20px;
+  }
+
+  #ekstrakurikuler h2 {
+    font-size: 34px;
+  }
+
+  #ekstrakurikuler #arrow-left-parent {
+    margin-top: 95px;
+    margin-left: 60px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 46px;
+    height: 43px;
+    margin-top: 380px;
+    margin-left: -75px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul img {
+    height: 35px;
+    width: 35px;
+    margin-top: -12px;
+    margin-left: -8px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 46px;
+    height: 43px;
+    margin-top: 380px;
+    margin-left: 78px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul img {
+    height: 35px;
+    width: 35px;
+    margin-top: -12px;
+    margin-left: -8px;
+  }
+
+  #ekstrakurikuler #card-ekskul {
+    margin-left: 30px;
+    margin-top: 300px;
+  }
+
+  #ekstrakurikuler #judul-ekskul {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: -35px;
+    margin-bottom: -5px;
+    position: absolute;
+    margin-top: 280px;
+    text-align: center;
+  }
+
+  #ekstrakurikuler #ekskul-sekolah {
+    color: black;
+    font-size: 16px;
+    margin-left: -37px;
+    margin-top: 315px;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+  }
+
+  #ekstrakurikuler .main-card #gambar_ekskul {
+    margin-left: -73px;
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #selengkapnya-ekskul {
+    width: 160px;
+    height: 45px;
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-left: -43px;
+    margin-top: 385px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #image-ekskul {
+    margin-left: 12px;
+    margin-top: -490px;
+    height: 340px;
+    width: 280px;
   }
 
   footer {
@@ -1311,6 +1639,115 @@ footer .bottom-details .bottom_text {
     box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);
   }
 
+  #ekstrakurikuler {
+    height: 1000px;
+    padding: 20px;
+  }
+
+  #ekstrakurikuler h2 {
+    font-size: 34px;
+  }
+
+  #ekstrakurikuler #arrow-left-parent {
+    margin-top: 95px;
+    margin-left: 60px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 46px;
+    height: 43px;
+    margin-top: 380px;
+    margin-left: -75px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul img {
+    height: 35px;
+    width: 35px;
+    margin-top: -12px;
+    margin-left: -8px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 46px;
+    height: 43px;
+    margin-top: 380px;
+    margin-left: 78px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul img {
+    height: 35px;
+    width: 35px;
+    margin-top: -12px;
+    margin-left: -8px;
+  }
+
+  #ekstrakurikuler #card-ekskul {
+    margin-left: 30px;
+    margin-top: 300px;
+  }
+
+  #ekstrakurikuler #judul-ekskul {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: -35px;
+    margin-bottom: -5px;
+    position: absolute;
+    margin-top: 280px;
+    text-align: center;
+  }
+
+  #ekstrakurikuler #ekskul-sekolah {
+    color: black;
+    font-size: 16px;
+    margin-left: -37px;
+    margin-top: 315px;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+  }
+
+  #ekstrakurikuler .main-card #gambar_ekskul {
+    margin-left: -73px;
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #selengkapnya-ekskul {
+    width: 160px;
+    height: 45px;
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-left: -43px;
+    margin-top: 385px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #image-ekskul {
+    margin-left: 12px;
+    margin-top: -490px;
+    height: 340px;
+    width: 280px;
+  }
+
   footer {
     background: #136a71;
     width: 100%;
@@ -1549,6 +1986,115 @@ footer .bottom-details .bottom_text {
     margin-top: 95px;
     margin-left: 8px;
     box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  #ekstrakurikuler {
+    height: 1000px;
+    padding: 20px;
+  }
+
+  #ekstrakurikuler h2 {
+    font-size: 36px;
+  }
+
+  #ekstrakurikuler #arrow-left-parent {
+    margin-top: 95px;
+    margin-left: 60px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 46px;
+    height: 43px;
+    margin-top: 380px;
+    margin-left: -30px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul img {
+    height: 35px;
+    width: 35px;
+    margin-top: -12px;
+    margin-left: -8px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 46px;
+    height: 43px;
+    margin-top: 380px;
+    margin-left: 138px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul img {
+    height: 35px;
+    width: 35px;
+    margin-top: -12px;
+    margin-left: -8px;
+  }
+
+  #ekstrakurikuler #card-ekskul {
+    margin-left: 30px;
+    margin-top: 300px;
+  }
+
+  #ekstrakurikuler #judul-ekskul {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-bottom: -5px;
+    position: absolute;
+    margin-top: 280px;
+    text-align: center;
+  }
+
+  #ekstrakurikuler #ekskul-sekolah {
+    color: black;
+    font-size: 16px;
+    margin-left: 33px;
+    margin-top: 315px;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+  }
+
+  #ekstrakurikuler .main-card #gambar_ekskul {
+    margin-left: 0px;
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #selengkapnya-ekskul {
+    width: 160px;
+    height: 45px;
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-left: 27px;
+    margin-top: 385px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #image-ekskul {
+    margin-left: 95px;
+    margin-top: -500px;
+    height: 340px;
+    width: 280px;
   }
 
   footer {
@@ -2126,6 +2672,115 @@ footer .bottom-details .bottom_text {
     box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);
   }
 
+  #ekstrakurikuler {
+    height: 1000px;
+    padding: 20px;
+  }
+
+  #ekstrakurikuler h2 {
+    font-size: 37px;
+  }
+
+  #ekstrakurikuler #arrow-left-parent {
+    margin-top: 95px;
+    margin-left: 60px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 46px;
+    height: 43px;
+    margin-top: 380px;
+    margin-left: 40px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul img {
+    height: 35px;
+    width: 35px;
+    margin-top: -12px;
+    margin-left: -8px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 46px;
+    height: 43px;
+    margin-top: 380px;
+    margin-left: 180px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul img {
+    height: 35px;
+    width: 35px;
+    margin-top: -12px;
+    margin-left: -8px;
+  }
+
+  #ekstrakurikuler #card-ekskul {
+    margin-left: 30px;
+    margin-top: 300px;
+  }
+
+  #ekstrakurikuler #judul-ekskul {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 125px;
+    margin-bottom: -5px;
+    position: absolute;
+    margin-top: 280px;
+    text-align: center;
+  }
+
+  #ekstrakurikuler #ekskul-sekolah {
+    color: black;
+    font-size: 16px;
+    margin-left: 83px;
+    margin-top: 315px;
+    text-align: center;
+    position: absolute;
+    width: 230px;
+  }
+
+  #ekstrakurikuler .main-card #gambar_ekskul {
+    margin-left: 90px;
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #selengkapnya-ekskul {
+    width: 160px;
+    height: 45px;
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-left: 117px;
+    margin-top: 385px;
+    position: absolute;
+  }
+
+  #ekstrakurikuler #image-ekskul {
+    margin-left: 200px;
+    margin-top: -500px;
+    height: 340px;
+    width: 280px;
+  }
+
   footer {
     background: #136a71;
     width: 100%;
@@ -2677,6 +3332,114 @@ footer .bottom-details .bottom_text {
     margin-top: 95px;
     margin-left: 8px;
     box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  #ekstrakurikuler {
+    background: #bce7eb;
+    margin-top: 100px;
+    height: 800px;
+    padding: 20px;
+  }
+
+  #ekstrakurikuler h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 37px;
+    margin-top: 50px;
+  }
+
+  #ekstrakurikuler #arrow-left-parent {
+    margin-top: 95px;
+    margin-left: 60px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 76px;
+    height: 73px;
+    margin-top: 70px;
+    margin-left: -30px;
+  }
+
+  #ekstrakurikuler #arrow-left-ekskul img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul {
+    border-radius: 50px;
+    background-color: #bce7eb;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 16px;
+    width: 76px;
+    height: 73px;
+    margin-top: 70px;
+    margin-left: -40px;
+  }
+
+  #ekstrakurikuler #arrow-right-ekskul img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #ekstrakurikuler #card-ekskul {
+    margin-left: 30px;
+  }
+
+  #ekstrakurikuler #judul-ekskul {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: -50px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    text-align: center;
+  }
+
+  #ekstrakurikuler #ekskul-sekolah {
+    color: black;
+    font-size: 20px;
+    margin-left: -50px;
+    text-align: center;
+  }
+
+  #ekstrakurikuler .main-card #gambar_ekskul {
+    margin-left: -30px;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+  }
+
+  #ekstrakurikuler #selengkapnya-ekskul {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  #ekstrakurikuler .image-ekskul {
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+
+  #ekstrakurikuler #image-ekskul {
+    margin-left: 500px;
+    margin-top: -500px;
+    height: 450px;
+    width: 380px;
   }
 
   footer {
