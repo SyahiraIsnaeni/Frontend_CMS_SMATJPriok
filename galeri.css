@@ -365,20 +365,38 @@ footer .bottom-details .bottom_text {
 }
 
 #event h2 {
-  font-family: "poppins";
+  font-family: "poppins"; 
+  text-align: center; 
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+  font-size: 37px;
 }
 
 #eventdet h2 {
   font-family: "poppins";
+  font-size: 37px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .judulprestasi {
   font-family: "poppins";
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   color: black;
   text-align: center;
   font-size: 25px;
+}
+
+#prestasidet img {
+  width: 370px;
+  height: 320px;
+}
+
+#eventdet img {
+  width: 370px;
+  height: 320px;
 }
 
 @media screen and (max-width: 299px) {
@@ -387,14 +405,16 @@ footer .bottom-details .bottom_text {
   }
 
   #event .card-title {
-    width: 220px;
-    height: 80px;
-    margin-top: 210px;
+    width: 190px;
+    height: 70px;
+    margin-top: 150px;
     margin-left: 5px;
   }
 
   #event .nama {
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: 13px;
+    font-weight: 600;
   }
 
   #event .jabatan {
@@ -403,20 +423,37 @@ footer .bottom-details .bottom_text {
 
   #event .foto {
     margin-top: 10px;
-    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-left: -7px;
   }
 
   #event img {
     width: 230px;
-    height: 300px;
+    height: 230px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 22px;
   }
 
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 23px;
+    margin-top: 45px;
+  }
+
+  #eventdet img {
+    width: 230px;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+
+  #prestasidet img {
+    width: 230px;
+    height: 180px;
+  }
+
+  .judulprestasi {
+    font-size: 20px;
   }
 }
 
@@ -426,14 +463,16 @@ footer .bottom-details .bottom_text {
   }
 
   #event .card-title {
-    width: 240px;
-    height: 80px;
-    margin-top: 240px;
+    width: 230px;
+    height: 95px;
+    margin-top: 170px;
     margin-left: 5px;
   }
 
   #event .nama {
-    font-size: 16px;
+    font-size: 24px;
+    margin-top: 19px;
+    font-weight: 600;
   }
 
   #event .jabatan {
@@ -441,21 +480,38 @@ footer .bottom-details .bottom_text {
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -7px;
   }
 
   #event img {
-    width: 250px;
-    height: 330px;
+    width: 280px;
+    height: 280px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 25px;
   }
 
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 23px;
+    margin-top: 45px;
+  }
+
+  #eventdet img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+
+  #prestasidet img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .judulprestasi {
+    font-size: 20px;
   }
 }
 
@@ -465,34 +521,54 @@ footer .bottom-details .bottom_text {
   }
 
   #event .card-title {
-    width: 270px;
-    height: 90px;
-    margin-top: 270px;
-    margin-left: 5px;
+    width: 290px;
+    height: 110px;
+    margin-top: 225px;
   }
 
   #event .nama {
-    font-size: 17px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
   }
 
   #event .jabatan {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 55px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -2px;
   }
 
   #event img {
-    width: 280px;
-    height: 370px;
+    width: 350px;
+    height: 350px;
   }
-  #event h2 {
-    font-family: "poppins";
+
+  #event h2 b {
+    font-size: 35px;
   }
+  
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 30px;
+    margin-top: 45px;
+  }
+
+  #eventdet img {
+    width: 320px;
+    height: 270px;
+    margin-bottom: 30px;
+  }
+
+  #prestasidet img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .judulprestasi {
+    font-size: 23px;
   }
 }
 
@@ -503,36 +579,56 @@ footer .bottom-details .bottom_text {
   }
 
   #event .card-title {
-    width: 290px;
-    height: 90px;
-    margin-top: 300px;
-    margin-left: 5px;
+    width: 340px;
+    height: 120px;
+    margin-top: 260px;
   }
 
   #event .nama {
-    font-size: 18px;
+    font-size: 35px;
+    margin-top: 22px;
+    font-weight: 600;
   }
 
   #event .jabatan {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -2px;
   }
 
   #event img {
-    width: 300px;
+    width: 400px;
     height: 400px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 37px;
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 30px;
+    margin-top: 45px;
   }
+
+  #eventdet img {
+    width: 400px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+
+  #prestasidet img {
+    width: 350px;
+    height: 300px;
+  }
+
+  .judulprestasi {
+    font-size: 23px;
+  }
+
 }
 
 @media screen and (min-width: 421px) and (max-width: 500px) {
@@ -541,36 +637,56 @@ footer .bottom-details .bottom_text {
   }
 
   #event .card-title {
-    width: 270px;
-    height: 90px;
-    margin-top: 270px;
-    margin-left: 5px;
+    width: 300px;
+    height: 110px;
+    margin-top: 225px;
   }
 
   #event .nama {
-    font-size: 17px;
+    font-size: 33px;
+    margin-top: 20px;
+    font-weight: 600;
   }
 
   #event .jabatan {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 55px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -2px;
   }
 
   #event img {
-    width: 280px;
-    height: 370px;
+    width: 350px;
+    height: 350px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 35px;
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 30px;
+    margin-top: 45px;
   }
+
+  #eventdet img {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+
+  #prestasidet img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .judulprestasi {
+    font-size: 23px;
+  }
+
 }
 
 @media screen and (max-width: 1000px) and (min-width: 701px) {
@@ -580,102 +696,157 @@ footer .bottom-details .bottom_text {
   }
 
   #event .card-title {
-    width: 325px;
+    width: 180px;
     height: 90px;
-    margin-top: 350px;
-    margin-left: 5px;
+    margin-top: 115px;
   }
 
   #event .nama {
-    font-size: 18px;
+    font-size: 27px;
+    margin-top: 15px;
+    font-weight: 600;
   }
 
   #event .jabatan {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 190px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -2px;
   }
 
   #event img {
-    width: 420px;
-    height: 450px;
+    width: 220px;
+    height: 218px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 40px;
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 35px;
+    margin-top: 45px;
+  }
+
+  #eventdet img {
+    width: 210px;
+    height: 160px;
+  }
+
+  #prestasidet img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .judulprestasi {
+    font-size: 23px;
   }
 }
 
 @media screen and (max-width: 1300px) and (min-width: 1201px) {
   #event .card-title {
-    width: 325px;
-    height: 90px;
-    margin-top: 350px;
-    margin-left: 5px;
+    width: 300px;
+    height: 100px;
+    margin-top: 235px;
   }
 
   #event .nama {
-    font-size: 18px;
+    font-size: 33px;
+    margin-top: 13px;
+    font-weight: 600;
   }
 
   #event .jabatan {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -2px;
   }
 
   #event img {
-    width: 420px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 40px;
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 45px;
+    margin-top: 50px;
+  }
+
+  #eventdet img {
+    width: 350px;
+    height: 300px;
+  }
+
+  #prestasidet img {
+    width: 320px;
+    height: 270px;
+  }
+
+  .judulprestasi {
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
   #event .card-title {
-    width: 325px;
-    height: 90px;
-    margin-top: 350px;
-    margin-left: 5px;
+    width: 250px;
+    height: 100px;
+    margin-top: 185px;
   }
 
   #event .nama {
-    font-size: 18px;
+    font-size: 33px;
+    margin-top: 14px;
+    font-weight: 600;
   }
 
   #event .jabatan {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -2px;
   }
 
   #event img {
-    width: 420px;
-    height: 450px;
+    width: 300px;
+    height: 300px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 40px;
   }
+
   #eventdet h2 {
-    font-family: "poppins";
+    font-size: 45px;
+    margin-top: 70px;
   }
+
+  #eventdet img {
+    width: 280px;
+    height: 230px;
+  }
+
+  #prestasidet img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .judulprestasi {
+    font-size: 25px;
+  }
+
 }
