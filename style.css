@@ -149,6 +149,72 @@ p {
   background-color: #136a71;
 } */
 
+/* Add this CSS in your stylesheet or in a <style> tag in the HTML document */
+.card-button {
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #bce7eb;
+}
+
+.card-button img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-button p {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -10px;
+  text-align: center;
+}
+
+/* Additional styles for mobile devices */
+@media (max-width: 767px) {
+  .card-button {
+    margin-left: 0; /* Remove left margin on mobile devices */
+  }
+}
+
+/* Add this CSS in your stylesheet or in a <style> tag in the HTML document */
+
+#kontak-kami {
+  margin-top: 100px;
+  padding: 20px 0; /* Add padding to the top and bottom for spacing */
+  background-color: #f9f9f9; /* Optional: Add a background color */
+}
+
+#kontak-kami h3 {
+  font-weight: bold;
+}
+
+#kontak-kami ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#kontak-kami ul li {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+/* Additional styles for mobile devices */
+@media (max-width: 767px) {
+  #kontak-kami ul li {
+    margin-bottom: 10px; /* Reduce margin for smaller screens */
+    font-size: 18px; /* Reduce font size for smaller screens */
+  }
+
+  #kontak-kami iframe {
+    width: 100%; /* Make the iframe full-width on smaller screens */
+    height: 250px; /* Adjust the iframe height as needed for mobile display */
+  }
+}
+
 #blog {
   margin-top: 100px;
 
@@ -292,6 +358,76 @@ footer .content .top {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
+}
+
+footer {
+  background: #136a71;
+  width: 100%;
+}
+
+.content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* ... gaya-gaya lainnya ... */
+
+@media screen and (max-width: 768px) {
+  .top .media-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* flex-direction: column; */
+  }
+
+  .top {
+    flex-direction: column; /* Ubah tata letak menjadi tumpukan di perangkat mobile */
+    text-align: center;
+  }
+
+  .media-icons {
+    margin-top: 20px; /* Atur margin atas untuk ikon media */
+  }
+
+  .link-boxes {
+    text-align: center; /* Tengahkan isi link-boxes */
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    align-items: center;
+    text-align: center; /* Tengahkan teks dalam setiap kotak */
+  }
+
+  .link_name {
+    font-size: 20px; /* Ubah ukuran font judul kotak */
+  }
+
+  li i {
+    margin-right: 10px; /* Margin antara ikon dan teks */
+  }
+
+  /* Atur ukuran font dan tata letak lainnya sesuai kebutuhan */
+}
+
+@media screen and (max-width: 768px) {
+  .logo-details h4 {
+    font-size: 24px; /* Ubah ukuran font logo di perangkat mobile */
+  }
+
+  .logo-details img {
+    height: 30px; /* Ubah tinggi logo di perangkat mobile */
+  }
 }
 
 .content .top .logo-details {
@@ -475,6 +611,32 @@ footer .bottom-details .bottom_text {
   width: 310px;
   position: center;
   text-align: center;
+}
+
+/* Media query untuk tampilan layar kecil (contoh: perangkat seluler) */
+@media (max-width: 768px) {
+  footer {
+    text-align: center; /* Pusatkan konten footer pada tampilan seluler */
+  }
+
+  .link-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan kotak link pada tampilan seluler */
+  }
+
+  .box {
+    margin-bottom: 20px; /* Tambahkan margin antara kotak link */
+  }
+
+  .bottom-details {
+    text-align: center;
+  }
+
+  .bottom-details a {
+    display: block; /* Membuat tautan pada bagian bawah menjadi blok */
+    margin-top: 10px; /* Tambahkan margin atas antara tautan */
+  }
 }
 
 @media screen and (max-width: 299px) {
