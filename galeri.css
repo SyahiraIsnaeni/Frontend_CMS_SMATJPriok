@@ -635,16 +635,16 @@ footer .bottom-details .bottom_text {
   .carousel-image {
     height: 40vh;
   }
-  
+
   #event .card-title {
-    width: 340px;
-    height: 120px;
-    margin-top: 260px;
+    width: 300px;
+    height: 110px;
+    margin-top: 225px;
   }
 
   #event .nama {
-    font-size: 35px;
-    margin-top: 22px;
+    font-size: 33px;
+    margin-top: 20px;
     font-weight: 600;
   }
 
@@ -659,12 +659,12 @@ footer .bottom-details .bottom_text {
   }
 
   #event img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
 
   #event h2 b {
-    font-size: 37px;
+    font-size: 35px;
   }
 
   #eventdet h2 {
@@ -696,32 +696,34 @@ footer .bottom-details .bottom_text {
   }
 
   #event .card-title {
-    width: 325px;
+    width: 180px;
     height: 90px;
-    margin-top: 350px;
-    margin-left: 5px;
+    margin-top: 115px;
   }
 
   #event .nama {
-    font-size: 18px;
+    font-size: 27px;
+    margin-top: 15px;
+    font-weight: 600;
   }
 
   #event .jabatan {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 190px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -2px;
   }
 
   #event img {
-    width: 420px;
-    height: 450px;
+    width: 220px;
+    height: 218px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 40px;
   }
 
   #eventdet h2 {
@@ -746,32 +748,34 @@ footer .bottom-details .bottom_text {
 
 @media screen and (max-width: 1300px) and (min-width: 1201px) {
   #event .card-title {
-    width: 325px;
-    height: 90px;
-    margin-top: 350px;
-    margin-left: 5px;
+    width: 300px;
+    height: 100px;
+    margin-top: 235px;
   }
 
   #event .nama {
-    font-size: 18px;
+    font-size: 33px;
+    margin-top: 13px;
+    font-weight: 600;
   }
 
   #event .jabatan {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -2px;
   }
 
   #event img {
-    width: 420px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 40px;
   }
 
   #eventdet h2 {
@@ -796,32 +800,34 @@ footer .bottom-details .bottom_text {
 
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
   #event .card-title {
-    width: 325px;
-    height: 90px;
-    margin-top: 350px;
-    margin-left: 5px;
+    width: 250px;
+    height: 100px;
+    margin-top: 185px;
   }
 
   #event .nama {
-    font-size: 18px;
+    font-size: 33px;
+    margin-top: 14px;
+    font-weight: 600;
   }
 
   #event .jabatan {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #event .foto {
-    margin-top: 20px;
-    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -2px;
   }
 
   #event img {
-    width: 420px;
-    height: 450px;
+    width: 300px;
+    height: 300px;
   }
 
-  #event h2 {
-    font-family: "poppins";
+  #event h2 b {
+    font-size: 40px;
   }
 
   #eventdet h2 {
