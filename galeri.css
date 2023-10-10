@@ -375,10 +375,15 @@ footer .bottom-details .bottom_text {
 .judulprestasi {
   font-family: "poppins";
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   color: black;
   text-align: center;
   font-size: 25px;
+}
+
+#prestasidet img {
+  width: 370px;
+  height: 320px;
 }
 
 @media screen and (max-width: 299px) {
@@ -421,6 +426,15 @@ footer .bottom-details .bottom_text {
 
   #eventdet .foto {
     margin-bottom: 20px;
+  }
+
+  #prestasidet img {
+    width: 230px;
+    height: 180px;
+  }
+
+  .judulprestasi {
+    font-size: 20px;
   }
 }
 
@@ -465,6 +479,15 @@ footer .bottom-details .bottom_text {
   #eventdet .foto {
     margin-bottom: 20px;
   }
+
+  #prestasidet img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .judulprestasi {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 395px) and (max-width: 420px) {
@@ -506,6 +529,15 @@ footer .bottom-details .bottom_text {
   #eventdet .foto {
     margin-bottom: 20px;
     margin-right: 20px;
+  }
+
+  #prestasidet img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .judulprestasi {
+    font-size: 23px;
   }
 }
 
@@ -551,6 +583,15 @@ footer .bottom-details .bottom_text {
     margin-bottom: 20px;
   }
 
+  #prestasidet img {
+    width: 350px;
+    height: 300px;
+  }
+
+  .judulprestasi {
+    font-size: 23px;
+  }
+
 }
 
 @media screen and (min-width: 421px) and (max-width: 500px) {
@@ -593,6 +634,16 @@ footer .bottom-details .bottom_text {
   #eventdet .foto {
     margin-bottom: 20px;
   }
+
+  #prestasidet img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .judulprestasi {
+    font-size: 23px;
+  }
+
 }
 
 @media screen and (max-width: 1000px) and (min-width: 701px) {
@@ -636,6 +687,15 @@ footer .bottom-details .bottom_text {
   #eventdet .foto {
     margin-bottom: 20px;
   }
+
+  #prestasidet img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .judulprestasi {
+    font-size: 23px;
+  }
 }
 
 @media screen and (max-width: 1300px) and (min-width: 1201px) {
@@ -670,6 +730,15 @@ footer .bottom-details .bottom_text {
   #eventdet h2 {
     font-family: "poppins";
   }
+
+  #prestasidet img {
+    width: 320px;
+    height: 270px;
+  }
+
+  .judulprestasi {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
@@ -703,6 +772,15 @@ footer .bottom-details .bottom_text {
   }
   #eventdet h2 {
     font-family: "poppins";
+  }
+
+  #prestasidet img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .judulprestasi {
+    font-size: 25px;
   }
 
 }
