@@ -418,6 +418,10 @@ footer .bottom-details .bottom_text {
   #eventdet h2 {
     font-family: "poppins";
   }
+
+  #eventdet .foto {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 394px) {
@@ -457,6 +461,10 @@ footer .bottom-details .bottom_text {
   #eventdet h2 {
     font-family: "poppins";
   }
+
+  #eventdet .foto {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 395px) and (max-width: 420px) {
@@ -493,6 +501,11 @@ footer .bottom-details .bottom_text {
   }
   #eventdet h2 {
     font-family: "poppins";
+  }
+
+  #eventdet .foto {
+    margin-bottom: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -533,6 +546,11 @@ footer .bottom-details .bottom_text {
   #eventdet h2 {
     font-family: "poppins";
   }
+
+  #eventdet .foto {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media screen and (min-width: 421px) and (max-width: 500px) {
@@ -570,6 +588,10 @@ footer .bottom-details .bottom_text {
   }
   #eventdet h2 {
     font-family: "poppins";
+  }
+
+  #eventdet .foto {
+    margin-bottom: 20px;
   }
 }
 
@@ -609,6 +631,10 @@ footer .bottom-details .bottom_text {
   }
   #eventdet h2 {
     font-family: "poppins";
+  }
+
+  #eventdet .foto {
+    margin-bottom: 20px;
   }
 }
 
@@ -678,4 +704,5 @@ footer .bottom-details .bottom_text {
   #eventdet h2 {
     font-family: "poppins";
   }
+
 }
