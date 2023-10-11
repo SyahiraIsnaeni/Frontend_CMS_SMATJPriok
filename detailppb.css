@@ -163,6 +163,8 @@ table {
 .tulisan {
   color: black;
   font-size: 15px;
+  width: 300px;
+  text-align: justify;
 }
 
 .row h3 {
@@ -176,6 +178,11 @@ table {
 
 a:hover p {
   text-decoration: underline;
+}
+
+.foto img {
+  width: 300px;
+  height: 200px;
 }
 
 p {
@@ -412,7 +419,146 @@ footer .bottom-details .bottom_text {
   justify-self: end;
 }
 
-.tulisan {
-  width: 300px;
-  text-align: justify;
+@media screen and (max-width: 299px) {
+  .detailppb {
+    height: 300px;
+    margin-top: 25px;
+  }
+
+  .foto img {
+    width: 250px;
+    height: 150px;
+    margin-left: -25px;
+  }
+
+  .tulisan {
+    width: 245px;
+    margin-left: -21px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 394px) {
+  .detailppb {
+    height: 350px;
+    margin-top: 25px;
+  }
+
+  .foto img {
+    width: 270px;
+    height: 170px;
+    margin-left: -25px;
+  }
+
+  .tulisan {
+    width: 265px;
+    margin-left: -21px;
+  }
+}
+
+@media screen and (min-width: 395px) and (max-width: 420px) {
+  .detailppb {
+    height: 400px;
+    margin-top: 25px;
+  }
+
+  .foto img {
+    width: 350px;
+    height: 250px;
+    margin-left: -25px;
+  }
+
+  .tulisan {
+    width: 345px;
+    margin-left: -21px;
+    font-size: 18px;
+  }
+
+  .tulsel {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .detailppb {
+    height: 550px;
+    margin-top: 25px;
+  }
+
+  .foto img {
+    width: 410px;
+    height: 310px;
+    margin-left: -25px;
+  }
+
+  .tulisan {
+    width: 405px;
+    margin-left: -21px;
+    font-size: 18px;
+  }
+
+  .tulsel {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 500px) {
+  .detailppb {
+    height: 550px;
+    margin-top: 25px;
+  }
+
+  .foto img {
+    width: 380px;
+    height: 280px;
+    margin-left: -25px;
+  }
+
+  .tulisan {
+    width: 375px;
+    margin-left: -21px;
+    font-size: 16px;
+  }
+
+  .tulsel {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 701px) {
+  .detailppb {
+    height: 700px;
+    margin-top: 25px;
+  }
+
+  .foto img {
+    width: 220px;
+    height: 120px;
+    margin-left: -35px;
+    padding-right: 5px;
+  }
+
+  .tulisan {
+    width: 215px;
+    margin-left: -31px;
+    font-size: 15px;
+    padding-right: 5px;
+  }
+
+  .tulsel {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+
+  .foto img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .tulisan {
+    width: 295px;
+  }
+
 }
