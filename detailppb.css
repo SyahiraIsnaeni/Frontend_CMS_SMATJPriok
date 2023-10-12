@@ -185,6 +185,10 @@ a:hover p {
   height: 200px;
 }
 
+.isikonten {
+  text-align: justify;
+}
+
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
